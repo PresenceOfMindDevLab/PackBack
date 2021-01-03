@@ -12336,6 +12336,7 @@ GameObject:
   - component: {fileID: 1511598653}
   - component: {fileID: 1511598652}
   - component: {fileID: 1511598651}
+  - component: {fileID: 1511598655}
   m_Layer: 0
   m_Name: Gegner
   m_TagString: Enemy
@@ -12455,6 +12456,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1511598655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511598650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cbea3f8e4f404042b550aca24405688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileDamage: {fileID: 7674235275796036060, guid: a7e088230e168e344af740bbeaec18da, type: 3}
+  deathAnimation: {fileID: 0}
+  animationRemove: 0
 --- !u!1 &1778155676
 GameObject:
   m_ObjectHideFlags: 0

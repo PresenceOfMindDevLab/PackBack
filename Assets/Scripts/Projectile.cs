@@ -5,9 +5,10 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
 
-    public GameObject hitEffect;
+    public GameObject hitAnimation;
     public float effectRemove;
     public float lifetime;
+    public float projectileDamage;
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -16,8 +17,9 @@ public class Projectile : MonoBehaviour
         {
             //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             //Destroy(effect, effectRemove);
+            
             Destroy(gameObject);
-            Debug.Log("getroffen");
+            //Debug.Log("getroffen");
         }
         
     }
