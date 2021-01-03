@@ -669,7 +669,7 @@ MonoBehaviour:
   lookLeft: 0
   shootingPoint: {fileID: 63636223}
   projectilePrefab: {fileID: 1027062521979904062, guid: a7e088230e168e344af740bbeaec18da, type: 3}
-  projectileForce: 20
+  projectileForce: 10
 --- !u!1 &373027742
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373027742}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.73, y: 0.31, z: 0}
+  m_LocalPosition: {x: 1.66, y: 0.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1778155678}
@@ -11523,6 +11523,36 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1863173682473309702, guid: 49c7d615e5142374cb6a65db9d620bde, type: 3}
   m_PrefabInstance: {fileID: 1093901841}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1157332994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1157332995}
+  m_Layer: 0
+  m_Name: ItemDropPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1157332995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157332994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.287, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1511598654}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1175930111
 GameObject:
   m_ObjectHideFlags: 0
@@ -12452,7 +12482,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.97, y: 0.02, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1157332995}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12470,7 +12501,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileDamage: {fileID: 7674235275796036060, guid: a7e088230e168e344af740bbeaec18da, type: 3}
   deathAnimation: {fileID: 0}
+  itemDrop: {fileID: 3858694195657632031, guid: 2855fc556fd209149944327fc346145b, type: 3}
   animationRemove: 0
+  itemDropPoint: {fileID: 1157332995}
 --- !u!1 &1778155676
 GameObject:
   m_ObjectHideFlags: 0
