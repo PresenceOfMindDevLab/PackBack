@@ -5,13 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-
-    public Camera cam;
-
     public void StartGame()
     {
-        //disable camera
-        cam.enabled = false;
         //loading game scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
