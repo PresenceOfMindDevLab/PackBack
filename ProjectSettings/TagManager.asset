@@ -16,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Post Processing
+  - Item
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Item
+    uniqueID: 1492969503
     locked: 0
   - name: Player
     uniqueID: 1839700055
