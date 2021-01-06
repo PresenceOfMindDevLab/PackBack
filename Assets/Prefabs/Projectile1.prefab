@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 7123953029061637768}
   - component: {fileID: 7674235275796036060}
   - component: {fileID: 5268508522403946246}
-  - component: {fileID: 3011947809028325643}
   m_Layer: 0
   m_Name: Projectile1
   m_TagString: Projectile
@@ -169,16 +168,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3011947809028325643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1027062521979904062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4904c1cb836e714ca7ca0ec0d689e77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: {fileID: 0}
