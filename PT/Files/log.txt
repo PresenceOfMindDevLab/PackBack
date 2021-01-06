@@ -1,0 +1,888 @@
+[ Debug  ] 18:00:09 - [from: <module>       ] - Set start time: 17:00:09
+[ Info   ] 18:00:09 - [from: <module>       ] - Starting Maya-Project, version 0.0.3.1
+[ Debug  ] 18:01:19 - [from: <module>       ] - Set start time: 17:01:19
+[ Info   ] 18:01:19 - [from: <module>       ] - Starting Maya-Project, version 0.0.3.1
+[ Debug  ] 18:01:54 - [from: <module>       ] - Set start time: 17:01:54
+[ Info   ] 18:01:54 - [from: <module>       ] - PT-BruteForce
+[ Debug  ] 18:02:17 - [from: <module>       ] - Set start time: 17:02:17
+[ Info   ] 18:02:17 - [from: <module>       ] - PT-BruteForce
+[ Debug  ] 18:03:48 - [from: <module>       ] - Set start time: 17:03:48
+[ Info   ] 18:03:48 - [from: <module>       ] - PT-BruteForce
+[ Debug  ] 18:05:33 - [from: <module>       ] - Set start time: 17:05:33
+[ Info   ] 18:05:33 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 18:05:33 - [from: loadItems      ] - 4
+[ Info   ] 18:05:33 - [from: loadItems      ] - 5
+[ Info   ] 18:05:33 - [from: loadItems      ] - [4 5]
+[ Info   ] 18:05:33 - [from: loadItems      ] - 2
+[ Info   ] 18:05:33 - [from: loadItems      ] - 4
+[ Info   ] 18:05:33 - [from: loadItems      ] - [2 4]
+[ Info   ] 18:05:33 - [from: loadItems      ] - 7
+[ Info   ] 18:05:33 - [from: loadItems      ] - 2
+[ Info   ] 18:05:33 - [from: loadItems      ] - [7 2]
+[ Info   ] 18:05:33 - [from: loadItems      ] - 1
+[ Info   ] 18:05:33 - [from: loadItems      ] - 7
+[ Info   ] 18:05:33 - [from: loadItems      ] - [1 7]
+[ Info   ] 18:05:33 - [from: loadItems      ] - 6
+[ Info   ] 18:05:33 - [from: loadItems      ] - 6
+[ Info   ] 18:05:33 - [from: loadItems      ] - [6 6]
+[ Info   ] 18:05:33 - [from: loadItems      ] - 3
+[ Info   ] 18:05:33 - [from: loadItems      ] - 4
+[ Info   ] 18:05:33 - [from: loadItems      ] - [3 4]
+[ Info   ] 18:05:33 - [from: loadItems      ] - 7
+[ Info   ] 18:05:33 - [from: loadItems      ] - 3
+[ Info   ] 18:05:33 - [from: loadItems      ] - [7 3]
+[ Info   ] 18:05:33 - [from: loadItems      ] - 4
+[ Info   ] 18:05:33 - [from: loadItems      ] - 4
+[ Info   ] 18:05:33 - [from: loadItems      ] - [4 4]
+[ Info   ] 18:05:33 - [from: loadItems      ] - 9
+[ Info   ] 18:05:33 - [from: loadItems      ] - 5
+[ Info   ] 18:05:33 - [from: loadItems      ] - [9 5]
+[ Debug  ] 18:05:33 - [from: idle           ] - Run Idle
+[ Debug  ] 18:05:43 - [from: idle           ] - Run Idle
+[ Debug  ] 18:05:53 - [from: idle           ] - Run Idle
+[ Debug  ] 18:06:03 - [from: idle           ] - Run Idle
+[ Debug  ] 18:06:13 - [from: idle           ] - Run Idle
+[ Debug  ] 18:06:23 - [from: idle           ] - Run Idle
+[ Debug  ] 18:14:28 - [from: <module>       ] - Set start time: 17:14:28
+[ Info   ] 18:14:28 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 18:14:28 - [from: loadItems      ] - 4
+[ Info   ] 18:14:28 - [from: loadItems      ] - 5
+[ Info   ] 18:14:28 - [from: loadItems      ] - [4 5]
+[ Info   ] 18:14:28 - [from: loadItems      ] - 2
+[ Info   ] 18:14:28 - [from: loadItems      ] - 4
+[ Info   ] 18:14:28 - [from: loadItems      ] - [2 4]
+[ Info   ] 18:14:28 - [from: loadItems      ] - 7
+[ Info   ] 18:14:28 - [from: loadItems      ] - 2
+[ Info   ] 18:14:28 - [from: loadItems      ] - [7 2]
+[ Info   ] 18:14:28 - [from: loadItems      ] - 1
+[ Info   ] 18:14:28 - [from: loadItems      ] - 7
+[ Info   ] 18:14:28 - [from: loadItems      ] - [1 7]
+[ Info   ] 18:14:28 - [from: loadItems      ] - 6
+[ Info   ] 18:14:28 - [from: loadItems      ] - 6
+[ Info   ] 18:14:28 - [from: loadItems      ] - [6 6]
+[ Info   ] 18:14:28 - [from: loadItems      ] - 3
+[ Info   ] 18:14:28 - [from: loadItems      ] - 4
+[ Info   ] 18:14:28 - [from: loadItems      ] - [3 4]
+[ Info   ] 18:14:28 - [from: loadItems      ] - 7
+[ Info   ] 18:14:28 - [from: loadItems      ] - 3
+[ Info   ] 18:14:28 - [from: loadItems      ] - [7 3]
+[ Info   ] 18:14:28 - [from: loadItems      ] - 4
+[ Info   ] 18:14:28 - [from: loadItems      ] - 4
+[ Info   ] 18:14:28 - [from: loadItems      ] - [4 4]
+[ Info   ] 18:14:28 - [from: loadItems      ] - 9
+[ Info   ] 18:14:29 - [from: loadItems      ] - 5
+[ Info   ] 18:14:29 - [from: loadItems      ] - [9 5]
+[ Debug  ] 18:14:29 - [from: idle           ] - Run Idle
+[ Debug  ] 18:14:39 - [from: idle           ] - Run Idle
+[ Debug  ] 18:14:49 - [from: idle           ] - Run Idle
+[ Debug  ] 18:16:50 - [from: <module>       ] - Set start time: 17:16:50
+[ Info   ] 18:16:50 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 18:16:50 - [from: loadItems      ] - 4
+[ Info   ] 18:16:50 - [from: loadItems      ] - 5
+[ Info   ] 18:16:50 - [from: loadItems      ] - [4 5]
+[ Info   ] 18:16:50 - [from: loadItems      ] - 2
+[ Info   ] 18:16:50 - [from: loadItems      ] - 4
+[ Info   ] 18:16:50 - [from: loadItems      ] - [2 4]
+[ Info   ] 18:16:50 - [from: loadItems      ] - 7
+[ Info   ] 18:16:50 - [from: loadItems      ] - 2
+[ Info   ] 18:16:50 - [from: loadItems      ] - [7 2]
+[ Info   ] 18:16:50 - [from: loadItems      ] - 1
+[ Info   ] 18:16:50 - [from: loadItems      ] - 7
+[ Info   ] 18:16:50 - [from: loadItems      ] - [1 7]
+[ Info   ] 18:16:50 - [from: loadItems      ] - 6
+[ Info   ] 18:16:50 - [from: loadItems      ] - 6
+[ Info   ] 18:16:50 - [from: loadItems      ] - [6 6]
+[ Info   ] 18:16:50 - [from: loadItems      ] - 3
+[ Info   ] 18:16:50 - [from: loadItems      ] - 4
+[ Info   ] 18:16:50 - [from: loadItems      ] - [3 4]
+[ Info   ] 18:16:50 - [from: loadItems      ] - 7
+[ Info   ] 18:16:50 - [from: loadItems      ] - 3
+[ Info   ] 18:16:50 - [from: loadItems      ] - [7 3]
+[ Info   ] 18:16:50 - [from: loadItems      ] - 4
+[ Info   ] 18:16:50 - [from: loadItems      ] - 4
+[ Info   ] 18:16:50 - [from: loadItems      ] - [4 4]
+[ Info   ] 18:16:50 - [from: loadItems      ] - 9
+[ Info   ] 18:16:50 - [from: loadItems      ] - 5
+[ Info   ] 18:16:50 - [from: loadItems      ] - [9 5]
+[ Debug  ] 18:16:50 - [from: idle           ] - Run Idle
+[ Debug  ] 18:17:00 - [from: idle           ] - Run Idle
+[ Debug  ] 18:17:10 - [from: idle           ] - Run Idle
+[ Debug  ] 18:28:47 - [from: <module>       ] - Set start time: 17:28:47
+[ Info   ] 18:28:47 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 18:28:47 - [from: loadItems      ] - 4
+[ Info   ] 18:28:47 - [from: loadItems      ] - 5
+[ Info   ] 18:28:47 - [from: loadItems      ] - [4 5]
+[ Info   ] 18:28:47 - [from: loadItems      ] - 2
+[ Info   ] 18:28:47 - [from: loadItems      ] - 4
+[ Info   ] 18:28:47 - [from: loadItems      ] - [2 4]
+[ Info   ] 18:28:47 - [from: loadItems      ] - 7
+[ Info   ] 18:28:47 - [from: loadItems      ] - 2
+[ Info   ] 18:28:47 - [from: loadItems      ] - [7 2]
+[ Info   ] 18:28:47 - [from: loadItems      ] - 1
+[ Info   ] 18:28:47 - [from: loadItems      ] - 7
+[ Info   ] 18:28:47 - [from: loadItems      ] - [1 7]
+[ Info   ] 18:28:47 - [from: loadItems      ] - 6
+[ Info   ] 18:28:47 - [from: loadItems      ] - 6
+[ Info   ] 18:28:47 - [from: loadItems      ] - [6 6]
+[ Info   ] 18:28:47 - [from: loadItems      ] - 3
+[ Info   ] 18:28:47 - [from: loadItems      ] - 4
+[ Info   ] 18:28:47 - [from: loadItems      ] - [3 4]
+[ Info   ] 18:28:47 - [from: loadItems      ] - 7
+[ Info   ] 18:28:47 - [from: loadItems      ] - 3
+[ Info   ] 18:28:47 - [from: loadItems      ] - [7 3]
+[ Info   ] 18:28:47 - [from: loadItems      ] - 4
+[ Info   ] 18:28:47 - [from: loadItems      ] - 4
+[ Info   ] 18:28:47 - [from: loadItems      ] - [4 4]
+[ Info   ] 18:28:47 - [from: loadItems      ] - 9
+[ Info   ] 18:28:47 - [from: loadItems      ] - 5
+[ Info   ] 18:28:47 - [from: loadItems      ] - [9 5]
+[ Debug  ] 18:28:47 - [from: idle           ] - Run Idle
+[ Debug  ] 18:32:15 - [from: <module>       ] - Set start time: 17:32:15
+[ Info   ] 18:32:15 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 18:32:15 - [from: loadItems      ] - 4
+[ Info   ] 18:32:15 - [from: loadItems      ] - 5
+[ Info   ] 18:32:15 - [from: loadItems      ] - [4 5]
+[ Info   ] 18:32:15 - [from: loadItems      ] - 2
+[ Info   ] 18:32:15 - [from: loadItems      ] - 4
+[ Info   ] 18:32:15 - [from: loadItems      ] - [2 4]
+[ Info   ] 18:32:15 - [from: loadItems      ] - 7
+[ Info   ] 18:32:15 - [from: loadItems      ] - 2
+[ Info   ] 18:32:15 - [from: loadItems      ] - [7 2]
+[ Info   ] 18:32:15 - [from: loadItems      ] - 1
+[ Info   ] 18:32:15 - [from: loadItems      ] - 7
+[ Info   ] 18:32:15 - [from: loadItems      ] - [1 7]
+[ Info   ] 18:32:15 - [from: loadItems      ] - 6
+[ Info   ] 18:32:15 - [from: loadItems      ] - 6
+[ Info   ] 18:32:15 - [from: loadItems      ] - [6 6]
+[ Info   ] 18:32:15 - [from: loadItems      ] - 3
+[ Info   ] 18:32:15 - [from: loadItems      ] - 4
+[ Info   ] 18:32:15 - [from: loadItems      ] - [3 4]
+[ Info   ] 18:32:15 - [from: loadItems      ] - 7
+[ Info   ] 18:32:15 - [from: loadItems      ] - 3
+[ Info   ] 18:32:15 - [from: loadItems      ] - [7 3]
+[ Info   ] 18:32:15 - [from: loadItems      ] - 4
+[ Info   ] 18:32:15 - [from: loadItems      ] - 4
+[ Info   ] 18:32:15 - [from: loadItems      ] - [4 4]
+[ Info   ] 18:32:15 - [from: loadItems      ] - 9
+[ Info   ] 18:32:15 - [from: loadItems      ] - 5
+[ Info   ] 18:32:15 - [from: loadItems      ] - [9 5]
+[ Debug  ] 18:32:15 - [from: idle           ] - Run Idle
+[ Debug  ] 18:32:25 - [from: idle           ] - Run Idle
+[ Debug  ] 18:35:35 - [from: <module>       ] - Set start time: 17:35:35
+[ Info   ] 18:35:35 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 18:35:35 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 18:35:35 - [from: loadItems      ] - 4
+[ Info   ] 18:35:35 - [from: loadItems      ] - 5
+[ Info   ] 18:35:35 - [from: loadItems      ] - [4 5]
+[ Info   ] 18:35:35 - [from: loadItems      ] - 2
+[ Info   ] 18:35:35 - [from: loadItems      ] - 4
+[ Info   ] 18:35:35 - [from: loadItems      ] - [2 4]
+[ Info   ] 18:35:35 - [from: loadItems      ] - 7
+[ Info   ] 18:35:35 - [from: loadItems      ] - 2
+[ Info   ] 18:35:35 - [from: loadItems      ] - [7 2]
+[ Info   ] 18:35:35 - [from: loadItems      ] - 1
+[ Info   ] 18:35:35 - [from: loadItems      ] - 7
+[ Info   ] 18:35:35 - [from: loadItems      ] - [1 7]
+[ Info   ] 18:35:35 - [from: loadItems      ] - 6
+[ Info   ] 18:35:35 - [from: loadItems      ] - 6
+[ Info   ] 18:35:35 - [from: loadItems      ] - [6 6]
+[ Info   ] 18:35:35 - [from: loadItems      ] - 3
+[ Info   ] 18:35:35 - [from: loadItems      ] - 4
+[ Info   ] 18:35:35 - [from: loadItems      ] - [3 4]
+[ Info   ] 18:35:35 - [from: loadItems      ] - 7
+[ Info   ] 18:35:35 - [from: loadItems      ] - 3
+[ Info   ] 18:35:35 - [from: loadItems      ] - [7 3]
+[ Info   ] 18:35:35 - [from: loadItems      ] - 4
+[ Info   ] 18:35:35 - [from: loadItems      ] - 4
+[ Info   ] 18:35:35 - [from: loadItems      ] - [4 4]
+[ Info   ] 18:35:35 - [from: loadItems      ] - 9
+[ Info   ] 18:35:35 - [from: loadItems      ] - 5
+[ Info   ] 18:35:35 - [from: loadItems      ] - [9 5]
+[ Debug  ] 18:38:41 - [from: <module>       ] - Set start time: 17:38:41
+[ Info   ] 18:38:41 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 18:38:41 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 18:38:41 - [from: loadItems      ] - 4
+[ Info   ] 18:38:41 - [from: loadItems      ] - 5
+[ Info   ] 18:38:41 - [from: loadItems      ] - [4 5]
+[ Info   ] 18:38:41 - [from: loadItems      ] - 2
+[ Info   ] 18:38:41 - [from: loadItems      ] - 4
+[ Info   ] 18:38:41 - [from: loadItems      ] - [2 4]
+[ Info   ] 18:38:41 - [from: loadItems      ] - 7
+[ Info   ] 18:38:41 - [from: loadItems      ] - 2
+[ Info   ] 18:38:41 - [from: loadItems      ] - [7 2]
+[ Info   ] 18:38:41 - [from: loadItems      ] - 1
+[ Info   ] 18:38:41 - [from: loadItems      ] - 7
+[ Info   ] 18:38:41 - [from: loadItems      ] - [1 7]
+[ Info   ] 18:38:41 - [from: loadItems      ] - 6
+[ Info   ] 18:38:41 - [from: loadItems      ] - 6
+[ Info   ] 18:38:41 - [from: loadItems      ] - [6 6]
+[ Info   ] 18:38:41 - [from: loadItems      ] - 3
+[ Info   ] 18:38:41 - [from: loadItems      ] - 4
+[ Info   ] 18:38:41 - [from: loadItems      ] - [3 4]
+[ Info   ] 18:38:41 - [from: loadItems      ] - 7
+[ Info   ] 18:38:41 - [from: loadItems      ] - 3
+[ Info   ] 18:38:41 - [from: loadItems      ] - [7 3]
+[ Info   ] 18:38:41 - [from: loadItems      ] - 4
+[ Info   ] 18:38:41 - [from: loadItems      ] - 4
+[ Info   ] 18:38:41 - [from: loadItems      ] - [4 4]
+[ Info   ] 18:38:41 - [from: loadItems      ] - 9
+[ Info   ] 18:38:41 - [from: loadItems      ] - 5
+[ Info   ] 18:38:41 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:09:42 - [from: <module>       ] - Set start time: 16:09:42
+[ Info   ] 17:09:42 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:09:42 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:09:42 - [from: loadItems      ] - 4
+[ Info   ] 17:09:42 - [from: loadItems      ] - 5
+[ Info   ] 17:09:42 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:09:42 - [from: loadItems      ] - 2
+[ Info   ] 17:09:42 - [from: loadItems      ] - 4
+[ Info   ] 17:09:42 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:09:42 - [from: loadItems      ] - 7
+[ Info   ] 17:09:42 - [from: loadItems      ] - 2
+[ Info   ] 17:09:42 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:09:43 - [from: loadItems      ] - 1
+[ Info   ] 17:09:43 - [from: loadItems      ] - 7
+[ Info   ] 17:09:43 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:09:43 - [from: loadItems      ] - 6
+[ Info   ] 17:09:43 - [from: loadItems      ] - 6
+[ Info   ] 17:09:43 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:09:43 - [from: loadItems      ] - 3
+[ Info   ] 17:09:43 - [from: loadItems      ] - 4
+[ Info   ] 17:09:43 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:09:43 - [from: loadItems      ] - 7
+[ Info   ] 17:09:43 - [from: loadItems      ] - 3
+[ Info   ] 17:09:43 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:09:43 - [from: loadItems      ] - 4
+[ Info   ] 17:09:43 - [from: loadItems      ] - 4
+[ Info   ] 17:09:43 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:09:43 - [from: loadItems      ] - 9
+[ Info   ] 17:09:43 - [from: loadItems      ] - 5
+[ Info   ] 17:09:43 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:20:03 - [from: <module>       ] - Set start time: 16:20:02
+[ Info   ] 17:20:03 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:20:03 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:20:03 - [from: loadItems      ] - 4
+[ Info   ] 17:20:03 - [from: loadItems      ] - 5
+[ Info   ] 17:20:03 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:20:03 - [from: loadItems      ] - 2
+[ Info   ] 17:20:03 - [from: loadItems      ] - 4
+[ Info   ] 17:20:03 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:20:03 - [from: loadItems      ] - 7
+[ Info   ] 17:20:03 - [from: loadItems      ] - 2
+[ Info   ] 17:20:03 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:20:03 - [from: loadItems      ] - 1
+[ Info   ] 17:20:03 - [from: loadItems      ] - 7
+[ Info   ] 17:20:03 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:20:03 - [from: loadItems      ] - 6
+[ Info   ] 17:20:03 - [from: loadItems      ] - 6
+[ Info   ] 17:20:03 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:20:03 - [from: loadItems      ] - 3
+[ Info   ] 17:20:03 - [from: loadItems      ] - 4
+[ Info   ] 17:20:03 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:20:03 - [from: loadItems      ] - 7
+[ Info   ] 17:20:03 - [from: loadItems      ] - 3
+[ Info   ] 17:20:03 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:20:03 - [from: loadItems      ] - 4
+[ Info   ] 17:20:03 - [from: loadItems      ] - 4
+[ Info   ] 17:20:03 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:20:03 - [from: loadItems      ] - 9
+[ Info   ] 17:20:03 - [from: loadItems      ] - 5
+[ Info   ] 17:20:03 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:20:25 - [from: <module>       ] - Set start time: 16:20:25
+[ Info   ] 17:20:25 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:20:25 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:20:25 - [from: loadItems      ] - 4
+[ Info   ] 17:20:25 - [from: loadItems      ] - 5
+[ Info   ] 17:20:25 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:20:25 - [from: loadItems      ] - 2
+[ Info   ] 17:20:25 - [from: loadItems      ] - 4
+[ Info   ] 17:20:25 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:20:25 - [from: loadItems      ] - 7
+[ Info   ] 17:20:25 - [from: loadItems      ] - 2
+[ Info   ] 17:20:25 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:20:25 - [from: loadItems      ] - 1
+[ Info   ] 17:20:25 - [from: loadItems      ] - 7
+[ Info   ] 17:20:25 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:20:25 - [from: loadItems      ] - 6
+[ Info   ] 17:20:25 - [from: loadItems      ] - 6
+[ Info   ] 17:20:25 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:20:25 - [from: loadItems      ] - 3
+[ Info   ] 17:20:25 - [from: loadItems      ] - 4
+[ Info   ] 17:20:25 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:20:25 - [from: loadItems      ] - 7
+[ Info   ] 17:20:25 - [from: loadItems      ] - 3
+[ Info   ] 17:20:25 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:20:25 - [from: loadItems      ] - 4
+[ Info   ] 17:20:25 - [from: loadItems      ] - 4
+[ Info   ] 17:20:25 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:20:25 - [from: loadItems      ] - 9
+[ Info   ] 17:20:25 - [from: loadItems      ] - 5
+[ Info   ] 17:20:25 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:20:25 - [from: addMatrixVpS   ] - 9.8
+[ Debug  ] 17:21:10 - [from: <module>       ] - Set start time: 16:21:10
+[ Info   ] 17:21:10 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:21:10 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:21:10 - [from: loadItems      ] - 4
+[ Info   ] 17:21:10 - [from: loadItems      ] - 5
+[ Info   ] 17:21:10 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:21:10 - [from: loadItems      ] - 2
+[ Info   ] 17:21:10 - [from: loadItems      ] - 4
+[ Info   ] 17:21:10 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:21:10 - [from: loadItems      ] - 7
+[ Info   ] 17:21:10 - [from: loadItems      ] - 2
+[ Info   ] 17:21:10 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:21:10 - [from: loadItems      ] - 1
+[ Info   ] 17:21:10 - [from: loadItems      ] - 7
+[ Info   ] 17:21:10 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:21:10 - [from: loadItems      ] - 6
+[ Info   ] 17:21:10 - [from: loadItems      ] - 6
+[ Info   ] 17:21:10 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:21:10 - [from: loadItems      ] - 3
+[ Info   ] 17:21:10 - [from: loadItems      ] - 4
+[ Info   ] 17:21:10 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:21:10 - [from: loadItems      ] - 7
+[ Info   ] 17:21:10 - [from: loadItems      ] - 3
+[ Info   ] 17:21:10 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:21:10 - [from: loadItems      ] - 4
+[ Info   ] 17:21:10 - [from: loadItems      ] - 4
+[ Info   ] 17:21:10 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:21:10 - [from: loadItems      ] - 9
+[ Info   ] 17:21:10 - [from: loadItems      ] - 5
+[ Info   ] 17:21:10 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:24:14 - [from: <module>       ] - Set start time: 16:24:14
+[ Info   ] 17:24:14 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:24:14 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:24:14 - [from: loadItems      ] - 4
+[ Info   ] 17:24:14 - [from: loadItems      ] - 5
+[ Info   ] 17:24:14 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:24:14 - [from: loadItems      ] - 2
+[ Info   ] 17:24:14 - [from: loadItems      ] - 4
+[ Info   ] 17:24:14 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:24:14 - [from: loadItems      ] - 7
+[ Info   ] 17:24:14 - [from: loadItems      ] - 2
+[ Info   ] 17:24:14 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:24:14 - [from: loadItems      ] - 1
+[ Info   ] 17:24:14 - [from: loadItems      ] - 7
+[ Info   ] 17:24:14 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:24:14 - [from: loadItems      ] - 6
+[ Info   ] 17:24:14 - [from: loadItems      ] - 6
+[ Info   ] 17:24:14 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:24:14 - [from: loadItems      ] - 3
+[ Info   ] 17:24:14 - [from: loadItems      ] - 4
+[ Info   ] 17:24:14 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:24:14 - [from: loadItems      ] - 7
+[ Info   ] 17:24:14 - [from: loadItems      ] - 3
+[ Info   ] 17:24:14 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:24:14 - [from: loadItems      ] - 4
+[ Info   ] 17:24:14 - [from: loadItems      ] - 4
+[ Info   ] 17:24:14 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:24:14 - [from: loadItems      ] - 9
+[ Info   ] 17:24:14 - [from: loadItems      ] - 5
+[ Info   ] 17:24:14 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:25:30 - [from: <module>       ] - Set start time: 16:25:30
+[ Info   ] 17:25:30 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:25:30 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:25:30 - [from: loadItems      ] - 4
+[ Info   ] 17:25:30 - [from: loadItems      ] - 5
+[ Info   ] 17:25:30 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:25:30 - [from: loadItems      ] - 2
+[ Info   ] 17:25:30 - [from: loadItems      ] - 4
+[ Info   ] 17:25:30 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:25:30 - [from: loadItems      ] - 7
+[ Info   ] 17:25:30 - [from: loadItems      ] - 2
+[ Info   ] 17:25:30 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:25:30 - [from: loadItems      ] - 1
+[ Info   ] 17:25:30 - [from: loadItems      ] - 7
+[ Info   ] 17:25:30 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:25:30 - [from: loadItems      ] - 6
+[ Info   ] 17:25:30 - [from: loadItems      ] - 6
+[ Info   ] 17:25:30 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:25:30 - [from: loadItems      ] - 3
+[ Info   ] 17:25:30 - [from: loadItems      ] - 4
+[ Info   ] 17:25:30 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:25:30 - [from: loadItems      ] - 7
+[ Info   ] 17:25:30 - [from: loadItems      ] - 3
+[ Info   ] 17:25:30 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:25:30 - [from: loadItems      ] - 4
+[ Info   ] 17:25:30 - [from: loadItems      ] - 4
+[ Info   ] 17:25:30 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:25:30 - [from: loadItems      ] - 9
+[ Info   ] 17:25:30 - [from: loadItems      ] - 5
+[ Info   ] 17:25:30 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:25:56 - [from: <module>       ] - Set start time: 16:25:56
+[ Info   ] 17:25:56 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:25:56 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:25:56 - [from: loadItems      ] - 4
+[ Info   ] 17:25:56 - [from: loadItems      ] - 5
+[ Info   ] 17:25:56 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:25:56 - [from: loadItems      ] - 2
+[ Info   ] 17:25:56 - [from: loadItems      ] - 4
+[ Info   ] 17:25:56 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:25:57 - [from: loadItems      ] - 7
+[ Info   ] 17:25:57 - [from: loadItems      ] - 2
+[ Info   ] 17:25:57 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:25:57 - [from: loadItems      ] - 1
+[ Info   ] 17:25:57 - [from: loadItems      ] - 7
+[ Info   ] 17:25:57 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:25:57 - [from: loadItems      ] - 6
+[ Info   ] 17:25:57 - [from: loadItems      ] - 6
+[ Info   ] 17:25:57 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:25:57 - [from: loadItems      ] - 3
+[ Info   ] 17:25:57 - [from: loadItems      ] - 4
+[ Info   ] 17:25:57 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:25:57 - [from: loadItems      ] - 7
+[ Info   ] 17:25:57 - [from: loadItems      ] - 3
+[ Info   ] 17:25:57 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:25:57 - [from: loadItems      ] - 4
+[ Info   ] 17:25:57 - [from: loadItems      ] - 4
+[ Info   ] 17:25:57 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:25:57 - [from: loadItems      ] - 9
+[ Info   ] 17:25:57 - [from: loadItems      ] - 5
+[ Info   ] 17:25:57 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:30:46 - [from: <module>       ] - Set start time: 16:30:46
+[ Info   ] 17:30:46 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:30:46 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:30:46 - [from: loadItems      ] - 4
+[ Info   ] 17:30:46 - [from: loadItems      ] - 5
+[ Info   ] 17:30:46 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:30:46 - [from: loadItems      ] - 2
+[ Info   ] 17:30:46 - [from: loadItems      ] - 4
+[ Info   ] 17:30:46 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:30:46 - [from: loadItems      ] - 7
+[ Info   ] 17:30:46 - [from: loadItems      ] - 2
+[ Info   ] 17:30:46 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:30:46 - [from: loadItems      ] - 1
+[ Info   ] 17:30:46 - [from: loadItems      ] - 7
+[ Info   ] 17:30:46 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:30:46 - [from: loadItems      ] - 6
+[ Info   ] 17:30:46 - [from: loadItems      ] - 6
+[ Info   ] 17:30:46 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:30:46 - [from: loadItems      ] - 3
+[ Info   ] 17:30:46 - [from: loadItems      ] - 4
+[ Info   ] 17:30:46 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:30:46 - [from: loadItems      ] - 7
+[ Info   ] 17:30:46 - [from: loadItems      ] - 3
+[ Info   ] 17:30:46 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:30:46 - [from: loadItems      ] - 4
+[ Info   ] 17:30:46 - [from: loadItems      ] - 4
+[ Info   ] 17:30:46 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:30:46 - [from: loadItems      ] - 9
+[ Info   ] 17:30:46 - [from: loadItems      ] - 5
+[ Info   ] 17:30:46 - [from: loadItems      ] - [9 5]
+[ Debug  ] 17:31:09 - [from: <module>       ] - Set start time: 16:31:09
+[ Info   ] 17:31:09 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:31:09 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:31:09 - [from: loadItems      ] - 4
+[ Info   ] 17:31:09 - [from: loadItems      ] - 5
+[ Info   ] 17:31:09 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:31:09 - [from: loadItems      ] - 2
+[ Info   ] 17:31:09 - [from: loadItems      ] - 4
+[ Info   ] 17:31:09 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:31:09 - [from: loadItems      ] - 7
+[ Info   ] 17:31:09 - [from: loadItems      ] - 2
+[ Info   ] 17:31:09 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:31:09 - [from: loadItems      ] - 1
+[ Info   ] 17:31:09 - [from: loadItems      ] - 7
+[ Info   ] 17:31:09 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:31:09 - [from: loadItems      ] - 6
+[ Info   ] 17:31:09 - [from: loadItems      ] - 6
+[ Info   ] 17:31:09 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:31:09 - [from: loadItems      ] - 3
+[ Info   ] 17:31:09 - [from: loadItems      ] - 4
+[ Info   ] 17:31:09 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:31:09 - [from: loadItems      ] - 7
+[ Info   ] 17:31:09 - [from: loadItems      ] - 3
+[ Info   ] 17:31:09 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:31:09 - [from: loadItems      ] - 4
+[ Info   ] 17:31:09 - [from: loadItems      ] - 4
+[ Info   ] 17:31:09 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:31:09 - [from: loadItems      ] - 9
+[ Info   ] 17:31:09 - [from: loadItems      ] - 5
+[ Info   ] 17:31:09 - [from: loadItems      ] - [9 5]
+[ Info   ] 17:31:09 - [from: addMatrixVpS   ] - [[4.         2.         7.         1.         6.         3.
+  7.         4.         9.        ]
+ [5.         4.         2.         7.         6.         4.
+  3.         4.         5.        ]
+ [0.8        0.5        3.5        0.14285714 1.         0.75
+  2.33333333 1.         1.8       ]]
+[ Debug  ] 17:31:09 - [from: idle           ] - Run Idle
+[ Debug  ] 17:31:19 - [from: idle           ] - Run Idle
+[ Debug  ] 17:31:29 - [from: idle           ] - Run Idle
+[ Debug  ] 17:31:39 - [from: idle           ] - Run Idle
+[ Debug  ] 17:32:07 - [from: <module>       ] - Set start time: 16:32:07
+[ Info   ] 17:32:07 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:32:07 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:32:07 - [from: loadItems      ] - 4
+[ Info   ] 17:32:07 - [from: loadItems      ] - 5
+[ Info   ] 17:32:07 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:32:07 - [from: loadItems      ] - 2
+[ Info   ] 17:32:07 - [from: loadItems      ] - 4
+[ Info   ] 17:32:07 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:32:07 - [from: loadItems      ] - 7
+[ Info   ] 17:32:07 - [from: loadItems      ] - 2
+[ Info   ] 17:32:07 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:32:07 - [from: loadItems      ] - 1
+[ Info   ] 17:32:07 - [from: loadItems      ] - 7
+[ Info   ] 17:32:07 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:32:07 - [from: loadItems      ] - 6
+[ Info   ] 17:32:07 - [from: loadItems      ] - 6
+[ Info   ] 17:32:07 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:32:07 - [from: loadItems      ] - 3
+[ Info   ] 17:32:07 - [from: loadItems      ] - 4
+[ Info   ] 17:32:07 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:32:07 - [from: loadItems      ] - 7
+[ Info   ] 17:32:07 - [from: loadItems      ] - 3
+[ Info   ] 17:32:07 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:32:07 - [from: loadItems      ] - 4
+[ Info   ] 17:32:07 - [from: loadItems      ] - 4
+[ Info   ] 17:32:07 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:32:07 - [from: loadItems      ] - 9
+[ Info   ] 17:32:07 - [from: loadItems      ] - 5
+[ Info   ] 17:32:07 - [from: loadItems      ] - [9 5]
+[ Info   ] 17:32:07 - [from: addMatrixVpS   ] - [[4. 2. 7. 1. 6. 3. 7. 4. 9.]
+ [5. 4. 2. 7. 6. 4. 3. 4. 5.]
+ [1. 0. 4. 0. 1. 1. 2. 1. 2.]]
+[ Debug  ] 17:32:07 - [from: idle           ] - Run Idle
+[ Debug  ] 17:32:17 - [from: idle           ] - Run Idle
+[ Debug  ] 17:32:27 - [from: idle           ] - Run Idle
+[ Debug  ] 17:35:13 - [from: <module>       ] - Set start time: 16:35:13
+[ Info   ] 17:35:13 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 17:35:13 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 17:35:13 - [from: loadItems      ] - 4
+[ Info   ] 17:35:13 - [from: loadItems      ] - 5
+[ Info   ] 17:35:13 - [from: loadItems      ] - [4 5]
+[ Info   ] 17:35:13 - [from: loadItems      ] - 2
+[ Info   ] 17:35:13 - [from: loadItems      ] - 4
+[ Info   ] 17:35:13 - [from: loadItems      ] - [2 4]
+[ Info   ] 17:35:13 - [from: loadItems      ] - 7
+[ Info   ] 17:35:13 - [from: loadItems      ] - 2
+[ Info   ] 17:35:13 - [from: loadItems      ] - [7 2]
+[ Info   ] 17:35:13 - [from: loadItems      ] - 1
+[ Info   ] 17:35:13 - [from: loadItems      ] - 7
+[ Info   ] 17:35:13 - [from: loadItems      ] - [1 7]
+[ Info   ] 17:35:13 - [from: loadItems      ] - 6
+[ Info   ] 17:35:13 - [from: loadItems      ] - 6
+[ Info   ] 17:35:13 - [from: loadItems      ] - [6 6]
+[ Info   ] 17:35:13 - [from: loadItems      ] - 3
+[ Info   ] 17:35:13 - [from: loadItems      ] - 4
+[ Info   ] 17:35:13 - [from: loadItems      ] - [3 4]
+[ Info   ] 17:35:13 - [from: loadItems      ] - 7
+[ Info   ] 17:35:13 - [from: loadItems      ] - 3
+[ Info   ] 17:35:13 - [from: loadItems      ] - [7 3]
+[ Info   ] 17:35:13 - [from: loadItems      ] - 4
+[ Info   ] 17:35:13 - [from: loadItems      ] - 4
+[ Info   ] 17:35:13 - [from: loadItems      ] - [4 4]
+[ Info   ] 17:35:13 - [from: loadItems      ] - 9
+[ Info   ] 17:35:13 - [from: loadItems      ] - 5
+[ Info   ] 17:35:13 - [from: loadItems      ] - [9 5]
+[ Info   ] 17:35:13 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 17:35:13 - [from: idle           ] - Run Idle
+[ Debug  ] 17:35:23 - [from: idle           ] - Run Idle
+[ Debug  ] 12:03:50 - [from: <module>       ] - Set start time: 11:03:50
+[ Info   ] 12:03:50 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 12:03:54 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 12:03:54 - [from: loadItems      ] - 4
+[ Info   ] 12:03:54 - [from: loadItems      ] - 5
+[ Info   ] 12:03:54 - [from: loadItems      ] - [4 5]
+[ Info   ] 12:03:54 - [from: loadItems      ] - 2
+[ Info   ] 12:03:54 - [from: loadItems      ] - 4
+[ Info   ] 12:03:54 - [from: loadItems      ] - [2 4]
+[ Info   ] 12:03:54 - [from: loadItems      ] - 7
+[ Info   ] 12:03:54 - [from: loadItems      ] - 2
+[ Info   ] 12:03:54 - [from: loadItems      ] - [7 2]
+[ Info   ] 12:03:54 - [from: loadItems      ] - 1
+[ Info   ] 12:03:54 - [from: loadItems      ] - 7
+[ Info   ] 12:03:54 - [from: loadItems      ] - [1 7]
+[ Info   ] 12:03:54 - [from: loadItems      ] - 6
+[ Info   ] 12:03:54 - [from: loadItems      ] - 6
+[ Info   ] 12:03:54 - [from: loadItems      ] - [6 6]
+[ Info   ] 12:03:54 - [from: loadItems      ] - 3
+[ Info   ] 12:03:54 - [from: loadItems      ] - 4
+[ Info   ] 12:03:54 - [from: loadItems      ] - [3 4]
+[ Info   ] 12:03:54 - [from: loadItems      ] - 7
+[ Info   ] 12:03:54 - [from: loadItems      ] - 3
+[ Info   ] 12:03:54 - [from: loadItems      ] - [7 3]
+[ Info   ] 12:03:54 - [from: loadItems      ] - 4
+[ Info   ] 12:03:54 - [from: loadItems      ] - 4
+[ Info   ] 12:03:54 - [from: loadItems      ] - [4 4]
+[ Info   ] 12:03:54 - [from: loadItems      ] - 9
+[ Info   ] 12:03:54 - [from: loadItems      ] - 5
+[ Info   ] 12:03:54 - [from: loadItems      ] - [9 5]
+[ Info   ] 12:03:54 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:04:28 - [from: <module>       ] - Set start time: 11:04:28
+[ Info   ] 12:04:28 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 12:04:30 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 12:04:30 - [from: loadItems      ] - 4
+[ Info   ] 12:04:30 - [from: loadItems      ] - 5
+[ Info   ] 12:04:30 - [from: loadItems      ] - [4 5]
+[ Info   ] 12:04:30 - [from: loadItems      ] - 2
+[ Info   ] 12:04:30 - [from: loadItems      ] - 4
+[ Info   ] 12:04:30 - [from: loadItems      ] - [2 4]
+[ Info   ] 12:04:30 - [from: loadItems      ] - 7
+[ Info   ] 12:04:30 - [from: loadItems      ] - 2
+[ Info   ] 12:04:30 - [from: loadItems      ] - [7 2]
+[ Info   ] 12:04:30 - [from: loadItems      ] - 1
+[ Info   ] 12:04:30 - [from: loadItems      ] - 7
+[ Info   ] 12:04:30 - [from: loadItems      ] - [1 7]
+[ Info   ] 12:04:30 - [from: loadItems      ] - 6
+[ Info   ] 12:04:30 - [from: loadItems      ] - 6
+[ Info   ] 12:04:30 - [from: loadItems      ] - [6 6]
+[ Info   ] 12:04:30 - [from: loadItems      ] - 3
+[ Info   ] 12:04:30 - [from: loadItems      ] - 4
+[ Info   ] 12:04:30 - [from: loadItems      ] - [3 4]
+[ Info   ] 12:04:30 - [from: loadItems      ] - 7
+[ Info   ] 12:04:30 - [from: loadItems      ] - 3
+[ Info   ] 12:04:30 - [from: loadItems      ] - [7 3]
+[ Info   ] 12:04:30 - [from: loadItems      ] - 4
+[ Info   ] 12:04:30 - [from: loadItems      ] - 4
+[ Info   ] 12:04:30 - [from: loadItems      ] - [4 4]
+[ Info   ] 12:04:30 - [from: loadItems      ] - 9
+[ Info   ] 12:04:30 - [from: loadItems      ] - 5
+[ Info   ] 12:04:30 - [from: loadItems      ] - [9 5]
+[ Info   ] 12:04:30 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:04:58 - [from: <module>       ] - Set start time: 11:04:58
+[ Info   ] 12:04:58 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 12:05:00 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 12:05:00 - [from: loadItems      ] - 4
+[ Info   ] 12:05:00 - [from: loadItems      ] - 5
+[ Info   ] 12:05:00 - [from: loadItems      ] - [4 5]
+[ Info   ] 12:05:00 - [from: loadItems      ] - 2
+[ Info   ] 12:05:00 - [from: loadItems      ] - 4
+[ Info   ] 12:05:00 - [from: loadItems      ] - [2 4]
+[ Info   ] 12:05:00 - [from: loadItems      ] - 7
+[ Info   ] 12:05:00 - [from: loadItems      ] - 2
+[ Info   ] 12:05:00 - [from: loadItems      ] - [7 2]
+[ Info   ] 12:05:00 - [from: loadItems      ] - 1
+[ Info   ] 12:05:00 - [from: loadItems      ] - 7
+[ Info   ] 12:05:00 - [from: loadItems      ] - [1 7]
+[ Info   ] 12:05:00 - [from: loadItems      ] - 6
+[ Info   ] 12:05:00 - [from: loadItems      ] - 6
+[ Info   ] 12:05:00 - [from: loadItems      ] - [6 6]
+[ Info   ] 12:05:00 - [from: loadItems      ] - 3
+[ Info   ] 12:05:00 - [from: loadItems      ] - 4
+[ Info   ] 12:05:00 - [from: loadItems      ] - [3 4]
+[ Info   ] 12:05:00 - [from: loadItems      ] - 7
+[ Info   ] 12:05:00 - [from: loadItems      ] - 3
+[ Info   ] 12:05:00 - [from: loadItems      ] - [7 3]
+[ Info   ] 12:05:00 - [from: loadItems      ] - 4
+[ Info   ] 12:05:00 - [from: loadItems      ] - 4
+[ Info   ] 12:05:00 - [from: loadItems      ] - [4 4]
+[ Info   ] 12:05:00 - [from: loadItems      ] - 9
+[ Info   ] 12:05:00 - [from: loadItems      ] - 5
+[ Info   ] 12:05:00 - [from: loadItems      ] - [9 5]
+[ Info   ] 12:05:00 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:05:00 - [from: idle           ] - Run Idle
+[ Debug  ] 12:05:10 - [from: idle           ] - Run Idle
+[ Debug  ] 12:05:20 - [from: idle           ] - Run Idle
+[ Debug  ] 12:05:30 - [from: idle           ] - Run Idle
+[ Debug  ] 12:05:40 - [from: idle           ] - Run Idle
+[ Debug  ] 12:05:59 - [from: <module>       ] - Set start time: 11:05:59
+[ Info   ] 12:05:59 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 12:06:04 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 12:06:04 - [from: loadItems      ] - 4
+[ Info   ] 12:06:04 - [from: loadItems      ] - 5
+[ Info   ] 12:06:04 - [from: loadItems      ] - [4 5]
+[ Info   ] 12:06:04 - [from: loadItems      ] - 2
+[ Info   ] 12:06:04 - [from: loadItems      ] - 4
+[ Info   ] 12:06:04 - [from: loadItems      ] - [2 4]
+[ Info   ] 12:06:04 - [from: loadItems      ] - 7
+[ Info   ] 12:06:04 - [from: loadItems      ] - 2
+[ Info   ] 12:06:04 - [from: loadItems      ] - [7 2]
+[ Info   ] 12:06:04 - [from: loadItems      ] - 1
+[ Info   ] 12:06:04 - [from: loadItems      ] - 7
+[ Info   ] 12:06:04 - [from: loadItems      ] - [1 7]
+[ Info   ] 12:06:04 - [from: loadItems      ] - 6
+[ Info   ] 12:06:04 - [from: loadItems      ] - 6
+[ Info   ] 12:06:04 - [from: loadItems      ] - [6 6]
+[ Info   ] 12:06:04 - [from: loadItems      ] - 3
+[ Info   ] 12:06:04 - [from: loadItems      ] - 4
+[ Info   ] 12:06:04 - [from: loadItems      ] - [3 4]
+[ Info   ] 12:06:04 - [from: loadItems      ] - 7
+[ Info   ] 12:06:04 - [from: loadItems      ] - 3
+[ Info   ] 12:06:04 - [from: loadItems      ] - [7 3]
+[ Info   ] 12:06:04 - [from: loadItems      ] - 4
+[ Info   ] 12:06:04 - [from: loadItems      ] - 4
+[ Info   ] 12:06:04 - [from: loadItems      ] - [4 4]
+[ Info   ] 12:06:04 - [from: loadItems      ] - 9
+[ Info   ] 12:06:04 - [from: loadItems      ] - 5
+[ Info   ] 12:06:04 - [from: loadItems      ] - [9 5]
+[ Info   ] 12:06:04 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:06:04 - [from: sortMatrix     ] - [[0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]
+ [4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]]
+[ Debug  ] 12:06:04 - [from: idle           ] - Run Idle
+[ Debug  ] 12:06:14 - [from: idle           ] - Run Idle
+[ Debug  ] 12:06:24 - [from: idle           ] - Run Idle
+[ Debug  ] 12:09:24 - [from: <module>       ] - Set start time: 11:09:24
+[ Info   ] 12:09:24 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 12:09:26 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 12:09:26 - [from: loadItems      ] - 4
+[ Info   ] 12:09:26 - [from: loadItems      ] - 5
+[ Info   ] 12:09:26 - [from: loadItems      ] - [4 5]
+[ Info   ] 12:09:26 - [from: loadItems      ] - 2
+[ Info   ] 12:09:26 - [from: loadItems      ] - 4
+[ Info   ] 12:09:26 - [from: loadItems      ] - [2 4]
+[ Info   ] 12:09:26 - [from: loadItems      ] - 7
+[ Info   ] 12:09:26 - [from: loadItems      ] - 2
+[ Info   ] 12:09:26 - [from: loadItems      ] - [7 2]
+[ Info   ] 12:09:26 - [from: loadItems      ] - 1
+[ Info   ] 12:09:26 - [from: loadItems      ] - 7
+[ Info   ] 12:09:26 - [from: loadItems      ] - [1 7]
+[ Info   ] 12:09:26 - [from: loadItems      ] - 6
+[ Info   ] 12:09:26 - [from: loadItems      ] - 6
+[ Info   ] 12:09:26 - [from: loadItems      ] - [6 6]
+[ Info   ] 12:09:26 - [from: loadItems      ] - 3
+[ Info   ] 12:09:26 - [from: loadItems      ] - 4
+[ Info   ] 12:09:27 - [from: loadItems      ] - [3 4]
+[ Info   ] 12:09:27 - [from: loadItems      ] - 7
+[ Info   ] 12:09:27 - [from: loadItems      ] - 3
+[ Info   ] 12:09:27 - [from: loadItems      ] - [7 3]
+[ Info   ] 12:09:27 - [from: loadItems      ] - 4
+[ Info   ] 12:09:27 - [from: loadItems      ] - 4
+[ Info   ] 12:09:27 - [from: loadItems      ] - [4 4]
+[ Info   ] 12:09:27 - [from: loadItems      ] - 9
+[ Info   ] 12:09:27 - [from: loadItems      ] - 5
+[ Info   ] 12:09:27 - [from: loadItems      ] - [9 5]
+[ Info   ] 12:09:27 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:09:27 - [from: sortMatrix     ] - [[0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]
+ [4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]]
+[ Debug  ] 12:09:27 - [from: idle           ] - Run Idle
+[ Debug  ] 12:09:37 - [from: idle           ] - Run Idle
+[ Debug  ] 12:09:47 - [from: idle           ] - Run Idle
+[ Debug  ] 12:09:57 - [from: idle           ] - Run Idle
+[ Debug  ] 12:10:07 - [from: idle           ] - Run Idle
+[ Debug  ] 12:10:17 - [from: idle           ] - Run Idle
+[ Debug  ] 12:10:27 - [from: idle           ] - Run Idle
+[ Debug  ] 12:10:37 - [from: idle           ] - Run Idle
+[ Debug  ] 12:10:47 - [from: idle           ] - Run Idle
+[ Debug  ] 12:11:01 - [from: <module>       ] - Set start time: 11:11:01
+[ Info   ] 12:11:01 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 12:11:05 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 12:11:05 - [from: loadItems      ] - 4
+[ Info   ] 12:11:05 - [from: loadItems      ] - 5
+[ Info   ] 12:11:05 - [from: loadItems      ] - [4 5]
+[ Info   ] 12:11:05 - [from: loadItems      ] - 2
+[ Info   ] 12:11:05 - [from: loadItems      ] - 4
+[ Info   ] 12:11:05 - [from: loadItems      ] - [2 4]
+[ Info   ] 12:11:05 - [from: loadItems      ] - 7
+[ Info   ] 12:11:05 - [from: loadItems      ] - 2
+[ Info   ] 12:11:05 - [from: loadItems      ] - [7 2]
+[ Info   ] 12:11:05 - [from: loadItems      ] - 1
+[ Info   ] 12:11:05 - [from: loadItems      ] - 7
+[ Info   ] 12:11:05 - [from: loadItems      ] - [1 7]
+[ Info   ] 12:11:05 - [from: loadItems      ] - 6
+[ Info   ] 12:11:05 - [from: loadItems      ] - 6
+[ Info   ] 12:11:05 - [from: loadItems      ] - [6 6]
+[ Info   ] 12:11:05 - [from: loadItems      ] - 3
+[ Info   ] 12:11:05 - [from: loadItems      ] - 4
+[ Info   ] 12:11:05 - [from: loadItems      ] - [3 4]
+[ Info   ] 12:11:05 - [from: loadItems      ] - 7
+[ Info   ] 12:11:05 - [from: loadItems      ] - 3
+[ Info   ] 12:11:05 - [from: loadItems      ] - [7 3]
+[ Info   ] 12:11:05 - [from: loadItems      ] - 4
+[ Info   ] 12:11:05 - [from: loadItems      ] - 4
+[ Info   ] 12:11:05 - [from: loadItems      ] - [4 4]
+[ Info   ] 12:11:05 - [from: loadItems      ] - 9
+[ Info   ] 12:11:05 - [from: loadItems      ] - 5
+[ Info   ] 12:11:05 - [from: loadItems      ] - [9 5]
+[ Info   ] 12:11:05 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:11:05 - [from: sortMatrix     ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:11:05 - [from: idle           ] - Run Idle
+[ Debug  ] 12:11:15 - [from: idle           ] - Run Idle
+[ Debug  ] 12:11:25 - [from: idle           ] - Run Idle
+[ Debug  ] 12:11:35 - [from: idle           ] - Run Idle
+[ Debug  ] 12:12:32 - [from: <module>       ] - Set start time: 11:12:32
+[ Info   ] 12:12:32 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 12:12:36 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 12:12:36 - [from: loadItems      ] - 4
+[ Info   ] 12:12:36 - [from: loadItems      ] - 5
+[ Info   ] 12:12:36 - [from: loadItems      ] - [4 5]
+[ Info   ] 12:12:36 - [from: loadItems      ] - 2
+[ Info   ] 12:12:36 - [from: loadItems      ] - 4
+[ Info   ] 12:12:36 - [from: loadItems      ] - [2 4]
+[ Info   ] 12:12:36 - [from: loadItems      ] - 7
+[ Info   ] 12:12:36 - [from: loadItems      ] - 2
+[ Info   ] 12:12:36 - [from: loadItems      ] - [7 2]
+[ Info   ] 12:12:36 - [from: loadItems      ] - 1
+[ Info   ] 12:12:36 - [from: loadItems      ] - 7
+[ Info   ] 12:12:36 - [from: loadItems      ] - [1 7]
+[ Info   ] 12:12:36 - [from: loadItems      ] - 6
+[ Info   ] 12:12:36 - [from: loadItems      ] - 6
+[ Info   ] 12:12:36 - [from: loadItems      ] - [6 6]
+[ Info   ] 12:12:36 - [from: loadItems      ] - 3
+[ Info   ] 12:12:36 - [from: loadItems      ] - 4
+[ Info   ] 12:12:36 - [from: loadItems      ] - [3 4]
+[ Info   ] 12:12:36 - [from: loadItems      ] - 7
+[ Info   ] 12:12:36 - [from: loadItems      ] - 3
+[ Info   ] 12:12:36 - [from: loadItems      ] - [7 3]
+[ Info   ] 12:12:36 - [from: loadItems      ] - 4
+[ Info   ] 12:12:36 - [from: loadItems      ] - 4
+[ Info   ] 12:12:36 - [from: loadItems      ] - [4 4]
+[ Info   ] 12:12:36 - [from: loadItems      ] - 9
+[ Info   ] 12:12:36 - [from: loadItems      ] - 5
+[ Info   ] 12:12:36 - [from: loadItems      ] - [9 5]
+[ Info   ] 12:12:36 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:12:36 - [from: sortMatrix     ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:12:36 - [from: idle           ] - Run Idle
+[ Debug  ] 12:12:46 - [from: idle           ] - Run Idle
+[ Debug  ] 12:12:56 - [from: idle           ] - Run Idle
+[ Debug  ] 12:13:06 - [from: idle           ] - Run Idle
+[ Debug  ] 12:13:39 - [from: <module>       ] - Set start time: 11:13:39
+[ Info   ] 12:13:39 - [from: <module>       ] - PT-BruteForce
+[ Info   ] 12:13:39 - [from: loadItems      ] - {'1': {'value': '4', 'size': '5'}, '2': {'value': 2, 'size': 4}, '3': {'value': 7, 'size': 2}, '4': {'value': 1, 'size': 7}, '5': {'value': 6, 'size': 6}, '6': {'value': 3, 'size': 4}, '7': {'value': 7, 'size': 3}, '8': {'value': 4, 'size': 4}, '9': {'value': 9, 'size': 5}}
+[ Info   ] 12:13:39 - [from: loadItems      ] - 4
+[ Info   ] 12:13:39 - [from: loadItems      ] - 5
+[ Info   ] 12:13:39 - [from: loadItems      ] - [4 5]
+[ Info   ] 12:13:39 - [from: loadItems      ] - 2
+[ Info   ] 12:13:39 - [from: loadItems      ] - 4
+[ Info   ] 12:13:39 - [from: loadItems      ] - [2 4]
+[ Info   ] 12:13:39 - [from: loadItems      ] - 7
+[ Info   ] 12:13:39 - [from: loadItems      ] - 2
+[ Info   ] 12:13:39 - [from: loadItems      ] - [7 2]
+[ Info   ] 12:13:39 - [from: loadItems      ] - 1
+[ Info   ] 12:13:39 - [from: loadItems      ] - 7
+[ Info   ] 12:13:39 - [from: loadItems      ] - [1 7]
+[ Info   ] 12:13:39 - [from: loadItems      ] - 6
+[ Info   ] 12:13:39 - [from: loadItems      ] - 6
+[ Info   ] 12:13:39 - [from: loadItems      ] - [6 6]
+[ Info   ] 12:13:39 - [from: loadItems      ] - 3
+[ Info   ] 12:13:39 - [from: loadItems      ] - 4
+[ Info   ] 12:13:39 - [from: loadItems      ] - [3 4]
+[ Info   ] 12:13:39 - [from: loadItems      ] - 7
+[ Info   ] 12:13:39 - [from: loadItems      ] - 3
+[ Info   ] 12:13:39 - [from: loadItems      ] - [7 3]
+[ Info   ] 12:13:39 - [from: loadItems      ] - 4
+[ Info   ] 12:13:39 - [from: loadItems      ] - 4
+[ Info   ] 12:13:39 - [from: loadItems      ] - [4 4]
+[ Info   ] 12:13:39 - [from: loadItems      ] - 9
+[ Info   ] 12:13:39 - [from: loadItems      ] - 5
+[ Info   ] 12:13:39 - [from: loadItems      ] - [9 5]
+[ Info   ] 12:13:39 - [from: addMatrixVpS   ] - [[4.   2.   7.   1.   6.   3.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.8  0.5  3.5  0.14 1.   0.75 2.33 1.   1.8 ]]
+[ Debug  ] 12:13:39 - [from: sortMatrix     ] - [[1.   6.   3.   4.   2.   7.   7.   4.   9.  ]
+ [5.   4.   2.   7.   6.   4.   3.   4.   5.  ]
+ [0.14 1.   0.75 2.33 1.   1.8  0.8  0.5  3.5 ]]
+[ Debug  ] 12:13:39 - [from: idle           ] - Run Idle
+[ Debug  ] 12:13:49 - [from: idle           ] - Run Idle
