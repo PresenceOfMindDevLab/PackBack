@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Items : MonoBehaviour
 {
 
-    public GameObject inventory;
+    //public GameObject fullinventory;
     private bool inRange;
 
     // Start is called before the first frame update
@@ -17,6 +18,8 @@ public class Items : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
         /*if(inventory.activeInHierarchy && inRange)
         {
             inventory.SetActive(false);
@@ -25,24 +28,32 @@ public class Items : MonoBehaviour
         }*/
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    /*public void OnTriggerEnter2D(Collider2D col)
     {
  
-        if(collider.CompareTag("Player"))
+        if(col.CompareTag("Player"))
         {
-            inRange = true;
-
+            inventory.SetActive(true);
         }
 
-    }
+    }*/
+
+     void OnTriggerEnter2D(Collider2D col)
+     {
+         if(col.name == "Player")
+        {
+            //fullinventory.SetActive(true);
+            //Destroy(gameObject);
+        }
+     }
 
     private void OnTriggerExit2D(Collider2D collider)
     {
 
         if (collider.CompareTag("Player"))
         {
-            inRange = false;
-
+            //inRange = false;
+            Destroy(gameObject);
         }
 
     }
