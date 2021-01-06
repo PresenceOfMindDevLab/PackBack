@@ -6,6 +6,10 @@ public class triggerinv : MonoBehaviour
 {
 
     public GameObject fullinventory;
+    public bool inRange;
+    private bool itemsTaken = false;
+    public bool inventoryOpen = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +24,23 @@ public class triggerinv : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        if(col.tag == "Player" && itemsTaken == false)
+        {
+            inRange = true;
+            inventoryOpen = true;
+            fullinventory.SetActive(true);
+
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
         if(col.tag == "Player")
         {
-            fullinventory.SetActive(true);
+            inRange = false;
+            itemsTaken = true;
+            inventoryOpen = false;
+            fullinventory.SetActive(false);
         }
     }
 }

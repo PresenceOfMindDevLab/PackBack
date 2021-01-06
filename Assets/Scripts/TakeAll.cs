@@ -38,7 +38,8 @@ public class TakeAll : MonoBehaviour
         // Set our position as a fraction of the distance between the markers.
         transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fractionOfJourney);
     }
-    public void ToggleState() {
-     GetComponent<TakeAll> ().enabled = !GetComponent<TakeAll> ().enabled; //this changes the state from on to off and vice-versa
- }
+    public void ToggleState() 
+    {
+        GetComponent<TakeAll> ().enabled = !GetComponent<TakeAll> ().enabled; //this changes the state from on to off and vice-versa
+    }
 }
