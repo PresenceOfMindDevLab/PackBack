@@ -1,5 +1,7 @@
-import numpy as np
+from LowLevel import LowLevel as LL
 from Utils import Logger as Log
+import numpy as np
+import time
 
 def setMaxWeight():
     maxWeight = int(input("Input Bag Size: "))
@@ -24,10 +26,13 @@ def addMatrixVpS(itemMatrix):
     return itemMatrixVpS
 
 def sortMatrix(itemMatrix):
-    sortedArr = itemMatrix [:,itemMatrix[2].argsort()]
+    sortedArr = itemMatrix [:,itemMatrix[2].argsort()[::-1]]
+    Log.d(sortedArr)
     return sortedArr
 
 def algo(sortedArr, maxWeight):
+    startTime = time.time()
+
     m, nx = sortedArr.shape
     PB = np.array([[],[],[]])
     weight = maxWeight
@@ -47,4 +52,5 @@ def algo(sortedArr, maxWeight):
             Log.d("item " + str(n) + " was not added to the bag")
         n = n + 1
     Log.i(PB)
+    Log.i(LL.algoTime(startTime))
     Log.d("finished")

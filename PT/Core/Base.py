@@ -10,6 +10,7 @@
 # 888           888          8888888P"  888      "Y88888  "Y888 "Y8888  888      "Y88P"  888     "Y8888P "Y8888  
 
 from Utils import Logger as Log
+from LowLevel import LowLevel as LL
 from Core import Core
 from Utils import parser
 
@@ -31,8 +32,8 @@ def PTRun():
     VpSM = Core.addMatrixVpS(items)
     sortMatrix = Core.sortMatrix(VpSM)
     Core.algo(sortMatrix, maxWeight)
-    endTime = time.time()
-    Log.d("Set start time: " + str(time.strftime("%H:%M:%S", time.gmtime(endTime))))
+    
+    Log.d(LL.uptime())
 
 
 def idle():

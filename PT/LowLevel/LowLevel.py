@@ -20,3 +20,11 @@ def uptime():
     uptime = time.time() - Base.startTime
     uptime = time.strftime("%H:%M:%S", time.gmtime(uptime))
     return uptime
+
+def algoTime(startTime):
+    algoTime = time.time() - startTime
+    ms = round(algoTime * 1000)
+
+    algoTime = time.strftime("%H:%M:%S", time.gmtime(algoTime)) + ":" + str(ms)
+    timeMsg = "algorithm uptime:  " + str(algoTime)
+    return timeMsg
