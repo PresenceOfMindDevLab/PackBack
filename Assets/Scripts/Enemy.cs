@@ -5,8 +5,6 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    public GameObject col;
-
     public Projectile projectileDamage;
     public GameObject deathAnimation;
     public GameObject itemDrop;
@@ -29,11 +27,7 @@ public class Enemy : MonoBehaviour
     {
         //GameObject animation = Instantiate(deathAnimation, transform.position, Quaternion.identity);
         //Destroy(animation, animationRemove);
-        if(collider.CompareTag("Projectile"))
-        {
-            Destroy(gameObject);
-        }
-        
+        Destroy(gameObject);
 
     }
 
@@ -41,7 +35,6 @@ public class Enemy : MonoBehaviour
     {
         //drops item at iItemDropPoint position
         Instantiate(itemDrop, itemDropPoint.position, itemDrop.transform.rotation);
-        col.SetActive(true);
     }
 
 }
