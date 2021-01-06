@@ -2,7 +2,7 @@ import numpy as np
 from Utils import Logger as Log
 
 def setMaxWeight():
-    maxWeight = input("Input Bag Size: ")
+    maxWeight = int(input("Input Bag Size: "))
     return maxWeight
 
 def addMatrixVpS(itemMatrix):
@@ -17,12 +17,34 @@ def addMatrixVpS(itemMatrix):
         VpS = np.around(VpS, decimals=2)
         
         newColumn = np.array([value,size,VpS])
-        itemMatrixVpS = np.column_stack((itemMatrixVpS,newColumn)) # change to row_stack
+        itemMatrixVpS = np.column_stack((itemMatrixVpS,newColumn))
         
         n + 1
     Log.i(itemMatrixVpS)
     return itemMatrixVpS
 
 def sortMatrix(itemMatrix):
-    itemMatrix.view('i8,i8,i8,i8,i8,i8,i8,i8,i8').sort(order=['f2'], axis=1) #
-    Log.d(itemMatrix)
+    sortedArr = itemMatrix [:,itemMatrix[2].argsort()]
+    return sortedArr
+
+def algo(sortedArr, maxWeight):
+    m, nx = sortedArr.shape
+    PB = np.array([[],[],[]])
+    weight = maxWeight
+    for n in range(nx):
+        item = sortedArr[:,n]
+        value = item[0]
+        size = item[1]
+        VpS = item[2]
+
+        if size < weight:
+            weight = weight - size
+
+            Log.d("item " + str(n) + " was added to the bag")
+            newColumn = np.array([value,size,VpS])
+            PB = np.column_stack((PB,newColumn))
+        else:
+            Log.d("item " + str(n) + " was not added to the bag")
+        n = n + 1
+    Log.i(PB)
+    Log.d("finished")

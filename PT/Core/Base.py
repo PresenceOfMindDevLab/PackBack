@@ -29,7 +29,10 @@ def PTRun():
 
     items = parser.loadItems()
     VpSM = Core.addMatrixVpS(items)
-    Core.sortMatrix(VpSM)
+    sortMatrix = Core.sortMatrix(VpSM)
+    Core.algo(sortMatrix, maxWeight)
+    endTime = time.time()
+    Log.d("Set start time: " + str(time.strftime("%H:%M:%S", time.gmtime(endTime))))
 
 
 def idle():
