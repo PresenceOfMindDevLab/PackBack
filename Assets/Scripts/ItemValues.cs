@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ItemValues : MonoBehaviour
 {
-
+    public int id;
     public float value;
     public float weight;
-    public string name;
+    public string itemName;
 
     // Start is called before the first frame update
     void Start()

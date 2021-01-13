@@ -41,7 +41,7 @@ namespace KnapsackProblem
         private double value;
         private double cost;
 
-        public KnapsackPackage(double weight, double value)
+        public void KnapsackPackage(double weight, double value)
         {
             this.weight = weight;
             this.value = value;

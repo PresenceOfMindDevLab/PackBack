@@ -227,9 +227,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 12
+  id: 1
+  value: 30
   weight: 21
-  name: Helm
+  Name: Emerald Staff
 --- !u!1 &42468137
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,6 +733,7 @@ GameObject:
   - component: {fileID: 204778046}
   - component: {fileID: 204778045}
   - component: {fileID: 204778044}
+  - component: {fileID: 204778047}
   m_Layer: 5
   m_Name: Item_23
   m_TagString: Untagged
@@ -811,6 +813,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204778042}
   m_CullTransparentMesh: 0
+--- !u!114 &204778047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204778042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 23
+  value: 1
+  weight: 1
+  Name: Copper Coin
 --- !u!1 &229669815
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,6 +917,7 @@ GameObject:
   - component: {fileID: 241981859}
   - component: {fileID: 241981858}
   - component: {fileID: 241981860}
+  - component: {fileID: 241981861}
   m_Layer: 5
   m_Name: Item_7
   m_TagString: Untagged
@@ -978,6 +997,22 @@ MonoBehaviour:
   startMarker: {fileID: 1981547868}
   endMarker: {fileID: 515012359}
   speed: 150
+--- !u!114 &241981861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241981856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 7
+  value: 1
+  weight: 2
+  Name: meat knuckle
 --- !u!1 &258419862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,6 +1176,7 @@ GameObject:
   - component: {fileID: 294372638}
   - component: {fileID: 294372637}
   - component: {fileID: 294372636}
+  - component: {fileID: 294372639}
   m_Layer: 5
   m_Name: Item_20
   m_TagString: Untagged
@@ -1220,6 +1256,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294372634}
   m_CullTransparentMesh: 0
+--- !u!114 &294372639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294372634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 20
+  value: 1
+  weight: 2
+  Name: Apple
 --- !u!1 &297290133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,6 +1905,7 @@ GameObject:
   - component: {fileID: 371560718}
   - component: {fileID: 371560717}
   - component: {fileID: 371560716}
+  - component: {fileID: 371560719}
   m_Layer: 5
   m_Name: Item_15
   m_TagString: Untagged
@@ -1932,6 +1985,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 371560714}
   m_CullTransparentMesh: 0
+--- !u!114 &371560719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371560714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 15
+  value: 5
+  weight: 1
+  Name: Ruby ring
 --- !u!1 &373027742
 GameObject:
   m_ObjectHideFlags: 0
@@ -12597,6 +12666,7 @@ GameObject:
   - component: {fileID: 494649408}
   - component: {fileID: 494649407}
   - component: {fileID: 494649406}
+  - component: {fileID: 494649409}
   m_Layer: 5
   m_Name: Item_27
   m_TagString: Untagged
@@ -12676,6 +12746,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494649404}
   m_CullTransparentMesh: 0
+--- !u!114 &494649409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494649404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 27
+  value: 25
+  weight: 20
+  Name: Iron Greatsword
 --- !u!1 &515012358
 GameObject:
   m_ObjectHideFlags: 0
@@ -12838,6 +12924,7 @@ GameObject:
   - component: {fileID: 565400823}
   - component: {fileID: 565400822}
   - component: {fileID: 565400824}
+  - component: {fileID: 565400825}
   m_Layer: 5
   m_Name: Item_6
   m_TagString: Untagged
@@ -12917,6 +13004,22 @@ MonoBehaviour:
   startMarker: {fileID: 853964510}
   endMarker: {fileID: 377846252}
   speed: 150
+--- !u!114 &565400825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565400820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 6
+  value: 15
+  weight: 3
+  Name: Emerald
 --- !u!1 &589103795
 GameObject:
   m_ObjectHideFlags: 0
@@ -13594,6 +13697,7 @@ GameObject:
   - component: {fileID: 672486008}
   - component: {fileID: 672486007}
   - component: {fileID: 672486009}
+  - component: {fileID: 672486010}
   m_Layer: 5
   m_Name: Item_4
   m_TagString: Untagged
@@ -13673,6 +13777,22 @@ MonoBehaviour:
   startMarker: {fileID: 659818941}
   endMarker: {fileID: 1395755529}
   speed: 150
+--- !u!114 &672486010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672486005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 4
+  value: 7
+  weight: 12
+  Name: Copper Bow
 --- !u!1 &704145898
 GameObject:
   m_ObjectHideFlags: 0
@@ -13912,6 +14032,7 @@ GameObject:
   - component: {fileID: 831534280}
   - component: {fileID: 831534279}
   - component: {fileID: 831534278}
+  - component: {fileID: 831534281}
   m_Layer: 5
   m_Name: Item_16
   m_TagString: Untagged
@@ -13991,6 +14112,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831534276}
   m_CullTransparentMesh: 0
+--- !u!114 &831534281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831534276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 16
+  value: 1
+  weight: 3
+  Name: Empty Flask
 --- !u!1 &837567851
 GameObject:
   m_ObjectHideFlags: 0
@@ -14003,6 +14140,7 @@ GameObject:
   - component: {fileID: 837567855}
   - component: {fileID: 837567854}
   - component: {fileID: 837567853}
+  - component: {fileID: 837567856}
   m_Layer: 5
   m_Name: Item_11
   m_TagString: Untagged
@@ -14082,6 +14220,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837567851}
   m_CullTransparentMesh: 0
+--- !u!114 &837567856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837567851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 11
+  value: 35
+  weight: 12
+  Name: Amethyst Staff
 --- !u!1 &853964509
 GameObject:
   m_ObjectHideFlags: 0
@@ -14322,6 +14476,7 @@ GameObject:
   - component: {fileID: 881618023}
   - component: {fileID: 881618022}
   - component: {fileID: 881618021}
+  - component: {fileID: 881618024}
   m_Layer: 5
   m_Name: Item_19
   m_TagString: Untagged
@@ -14401,6 +14556,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881618019}
   m_CullTransparentMesh: 0
+--- !u!114 &881618024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881618019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 19
+  value: 5
+  weight: 1
+  Name: Silver Coin
 --- !u!1 &891622038
 GameObject:
   m_ObjectHideFlags: 0
@@ -14413,6 +14584,7 @@ GameObject:
   - component: {fileID: 891622041}
   - component: {fileID: 891622040}
   - component: {fileID: 891622042}
+  - component: {fileID: 891622043}
   m_Layer: 5
   m_Name: Item_5
   m_TagString: Untagged
@@ -14492,6 +14664,22 @@ MonoBehaviour:
   startMarker: {fileID: 610801285}
   endMarker: {fileID: 589103796}
   speed: 150
+--- !u!114 &891622043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891622038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 5
+  value: 10
+  weight: 1
+  Name: Gold Coin
 --- !u!1 &897590873
 GameObject:
   m_ObjectHideFlags: 0
@@ -14774,6 +14962,7 @@ GameObject:
   - component: {fileID: 992074332}
   - component: {fileID: 992074331}
   - component: {fileID: 992074330}
+  - component: {fileID: 992074333}
   m_Layer: 5
   m_Name: Item_21
   m_TagString: Untagged
@@ -14853,6 +15042,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992074328}
   m_CullTransparentMesh: 0
+--- !u!114 &992074333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992074328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 21
+  value: 6
+  weight: 2
+  Name: acid flask
 --- !u!1 &1023076231
 GameObject:
   m_ObjectHideFlags: 0
@@ -14865,6 +15070,7 @@ GameObject:
   - component: {fileID: 1023076235}
   - component: {fileID: 1023076234}
   - component: {fileID: 1023076233}
+  - component: {fileID: 1023076236}
   m_Layer: 5
   m_Name: Item_24
   m_TagString: Untagged
@@ -14944,6 +15150,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023076231}
   m_CullTransparentMesh: 0
+--- !u!114 &1023076236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023076231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 24
+  value: 0
+  weight: 10
+  Name: wooden club
 --- !u!1 &1023609132
 GameObject:
   m_ObjectHideFlags: 0
@@ -15032,6 +15254,7 @@ GameObject:
   - component: {fileID: 1049331699}
   - component: {fileID: 1049331698}
   - component: {fileID: 1049331697}
+  - component: {fileID: 1049331700}
   m_Layer: 5
   m_Name: Item_22
   m_TagString: Untagged
@@ -15111,6 +15334,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049331695}
   m_CullTransparentMesh: 0
+--- !u!114 &1049331700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049331695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 22
+  value: 2
+  weight: 2
+  Name: Arrows
 --- !u!1 &1091354156
 GameObject:
   m_ObjectHideFlags: 0
@@ -15199,6 +15438,7 @@ GameObject:
   - component: {fileID: 1100560703}
   - component: {fileID: 1100560702}
   - component: {fileID: 1100560704}
+  - component: {fileID: 1100560705}
   m_Layer: 5
   m_Name: Item_2
   m_TagString: Untagged
@@ -15278,6 +15518,22 @@ MonoBehaviour:
   startMarker: {fileID: 2073888092}
   endMarker: {fileID: 1652864032}
   speed: 150
+--- !u!114 &1100560705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100560700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  value: 4
+  weight: 15
+  Name: Iron Broadsword
 --- !u!1 &1102656808
 GameObject:
   m_ObjectHideFlags: 0
@@ -15290,6 +15546,7 @@ GameObject:
   - component: {fileID: 1102656812}
   - component: {fileID: 1102656811}
   - component: {fileID: 1102656810}
+  - component: {fileID: 1102656813}
   m_Layer: 5
   m_Name: Item_12
   m_TagString: Untagged
@@ -15369,6 +15626,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102656808}
   m_CullTransparentMesh: 0
+--- !u!114 &1102656813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102656808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 12
+  value: 50
+  weight: 22
+  Name: Breaker Blade
 --- !u!1 &1144414034
 GameObject:
   m_ObjectHideFlags: 0
@@ -15703,6 +15976,7 @@ GameObject:
   - component: {fileID: 1282218176}
   - component: {fileID: 1282218175}
   - component: {fileID: 1282218174}
+  - component: {fileID: 1282218177}
   m_Layer: 5
   m_Name: Item_10
   m_TagString: Untagged
@@ -15782,6 +16056,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282218172}
   m_CullTransparentMesh: 0
+--- !u!114 &1282218177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282218172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 10
+  value: 20
+  weight: 8
+  Name: Leviathan Teeth
 --- !u!1 &1326598925
 GameObject:
   m_ObjectHideFlags: 0
@@ -15794,6 +16084,7 @@ GameObject:
   - component: {fileID: 1326598928}
   - component: {fileID: 1326598927}
   - component: {fileID: 1326598929}
+  - component: {fileID: 1326598930}
   m_Layer: 5
   m_Name: Item_3
   m_TagString: Untagged
@@ -15873,6 +16164,22 @@ MonoBehaviour:
   startMarker: {fileID: 1812646934}
   endMarker: {fileID: 1690635989}
   speed: 150
+--- !u!114 &1326598930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326598925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  value: 2
+  weight: 5
+  Name: Wood Bow
 --- !u!1 &1354354043
 GameObject:
   m_ObjectHideFlags: 0
@@ -16903,6 +17210,7 @@ GameObject:
   - component: {fileID: 1711262566}
   - component: {fileID: 1711262565}
   - component: {fileID: 1711262564}
+  - component: {fileID: 1711262567}
   m_Layer: 5
   m_Name: Item_8
   m_TagString: Untagged
@@ -16982,6 +17290,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711262562}
   m_CullTransparentMesh: 0
+--- !u!114 &1711262567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711262562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 8
+  value: 9
+  weight: 2
+  Name: sapphire
 --- !u!1 &1728911509
 GameObject:
   m_ObjectHideFlags: 0
@@ -17237,6 +17561,7 @@ GameObject:
   - component: {fileID: 1798425963}
   - component: {fileID: 1798425962}
   - component: {fileID: 1798425961}
+  - component: {fileID: 1798425964}
   m_Layer: 5
   m_Name: Item_26
   m_TagString: Untagged
@@ -17316,6 +17641,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798425959}
   m_CullTransparentMesh: 0
+--- !u!114 &1798425964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798425959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 26
+  value: 75
+  weight: 12
+  Name: ' Blood Rune Staff'
 --- !u!1 &1812646933
 GameObject:
   m_ObjectHideFlags: 0
@@ -17404,6 +17745,7 @@ GameObject:
   - component: {fileID: 1820622518}
   - component: {fileID: 1820622517}
   - component: {fileID: 1820622516}
+  - component: {fileID: 1820622519}
   m_Layer: 5
   m_Name: Item_9
   m_TagString: Untagged
@@ -17483,6 +17825,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820622514}
   m_CullTransparentMesh: 0
+--- !u!114 &1820622519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820622514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 9
+  value: 50
+  weight: 19
+  Name: Anklet of the Wind
 --- !u!1 &1828171647
 GameObject:
   m_ObjectHideFlags: 0
@@ -17495,6 +17853,7 @@ GameObject:
   - component: {fileID: 1828171651}
   - component: {fileID: 1828171650}
   - component: {fileID: 1828171649}
+  - component: {fileID: 1828171652}
   m_Layer: 5
   m_Name: Item_25
   m_TagString: Untagged
@@ -17574,6 +17933,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828171647}
   m_CullTransparentMesh: 0
+--- !u!114 &1828171652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828171647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 25
+  value: 60
+  weight: 8
+  Name: Molten Charm
 --- !u!1 &1845944118
 GameObject:
   m_ObjectHideFlags: 0
@@ -17887,6 +18262,7 @@ GameObject:
   - component: {fileID: 1873930436}
   - component: {fileID: 1873930435}
   - component: {fileID: 1873930434}
+  - component: {fileID: 1873930437}
   m_Layer: 5
   m_Name: Item_14
   m_TagString: Untagged
@@ -17966,6 +18342,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873930432}
   m_CullTransparentMesh: 0
+--- !u!114 &1873930437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873930432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 14
+  value: 9
+  weight: 2
+  Name: sapphire
 --- !u!1 &1941497320
 GameObject:
   m_ObjectHideFlags: 0
@@ -17978,6 +18370,7 @@ GameObject:
   - component: {fileID: 1941497324}
   - component: {fileID: 1941497323}
   - component: {fileID: 1941497322}
+  - component: {fileID: 1941497325}
   m_Layer: 5
   m_Name: Item_18
   m_TagString: Untagged
@@ -18057,6 +18450,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941497320}
   m_CullTransparentMesh: 0
+--- !u!114 &1941497325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941497320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 18
+  value: 26
+  weight: 12
+  Name: Silver Shortsword
 --- !u!1 &1952120779
 GameObject:
   m_ObjectHideFlags: 0
@@ -18069,6 +18478,7 @@ GameObject:
   - component: {fileID: 1952120783}
   - component: {fileID: 1952120782}
   - component: {fileID: 1952120781}
+  - component: {fileID: 1952120784}
   m_Layer: 5
   m_Name: Item_17
   m_TagString: Untagged
@@ -18148,6 +18558,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952120779}
   m_CullTransparentMesh: 0
+--- !u!114 &1952120784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952120779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 17
+  value: 5
+  weight: 4
+  Name: Poison Flask
 --- !u!1 &1970650706
 GameObject:
   m_ObjectHideFlags: 0
@@ -18889,6 +19315,7 @@ GameObject:
   - component: {fileID: 2113357305}
   - component: {fileID: 2113357304}
   - component: {fileID: 2113357303}
+  - component: {fileID: 2113357306}
   m_Layer: 5
   m_Name: Item_13
   m_TagString: Untagged
@@ -18968,6 +19395,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113357301}
   m_CullTransparentMesh: 0
+--- !u!114 &2113357306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113357301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c088e4f64b9b2344693587090b67bd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 13
+  value: 13
+  weight: 2
+  Name: Ruby
 --- !u!1 &2141427729
 GameObject:
   m_ObjectHideFlags: 0
