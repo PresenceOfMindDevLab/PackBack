@@ -53,7 +53,7 @@ public class Items : MonoBehaviour
         if (collider.CompareTag("Player"))
         {
             //inRange = false;
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
 
     }
