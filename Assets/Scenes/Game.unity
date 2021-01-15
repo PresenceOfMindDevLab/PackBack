@@ -230,7 +230,7 @@ MonoBehaviour:
   id: 1
   value: 30
   weight: 21
-  Name: Emerald Staff
+  itemName: Emerald Staff
 --- !u!1 &42468137
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,7 +828,7 @@ MonoBehaviour:
   id: 23
   value: 1
   weight: 1
-  Name: Copper Coin
+  itemName: Copper Coin
 --- !u!1 &229669815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   id: 7
   value: 1
   weight: 2
-  Name: meat knuckle
+  itemName: Chunk of Meat
 --- !u!1 &258419862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,7 +1271,7 @@ MonoBehaviour:
   id: 20
   value: 1
   weight: 2
-  Name: Apple
+  itemName: Apple
 --- !u!1 &297290133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,7 +2000,7 @@ MonoBehaviour:
   id: 15
   value: 5
   weight: 1
-  Name: Ruby ring
+  itemName: Ring of Corruption
 --- !u!1 &373027742
 GameObject:
   m_ObjectHideFlags: 0
@@ -12761,7 +12761,7 @@ MonoBehaviour:
   id: 27
   value: 25
   weight: 20
-  Name: Iron Greatsword
+  itemName: tungsten broadsword
 --- !u!1 &515012358
 GameObject:
   m_ObjectHideFlags: 0
@@ -13019,7 +13019,7 @@ MonoBehaviour:
   id: 6
   value: 15
   weight: 3
-  Name: Emerald
+  itemName: Emerald
 --- !u!1 &589103795
 GameObject:
   m_ObjectHideFlags: 0
@@ -13792,7 +13792,7 @@ MonoBehaviour:
   id: 4
   value: 7
   weight: 12
-  Name: Copper Bow
+  itemName: Copper Bow
 --- !u!1 &704145898
 GameObject:
   m_ObjectHideFlags: 0
@@ -14127,7 +14127,7 @@ MonoBehaviour:
   id: 16
   value: 1
   weight: 3
-  Name: Empty Flask
+  itemName: Empty Flask
 --- !u!1 &837567851
 GameObject:
   m_ObjectHideFlags: 0
@@ -14235,7 +14235,7 @@ MonoBehaviour:
   id: 11
   value: 35
   weight: 12
-  Name: Amethyst Staff
+  itemName: Amethyst Staff
 --- !u!1 &853964509
 GameObject:
   m_ObjectHideFlags: 0
@@ -14571,7 +14571,7 @@ MonoBehaviour:
   id: 19
   value: 5
   weight: 1
-  Name: Silver Coin
+  itemName: Silver Coin
 --- !u!1 &891622038
 GameObject:
   m_ObjectHideFlags: 0
@@ -14679,7 +14679,7 @@ MonoBehaviour:
   id: 5
   value: 10
   weight: 1
-  Name: Gold Coin
+  itemName: Gold Coin
 --- !u!1 &897590873
 GameObject:
   m_ObjectHideFlags: 0
@@ -15057,7 +15057,7 @@ MonoBehaviour:
   id: 21
   value: 6
   weight: 2
-  Name: acid flask
+  itemName: Poisen
 --- !u!1 &1023076231
 GameObject:
   m_ObjectHideFlags: 0
@@ -15165,7 +15165,7 @@ MonoBehaviour:
   id: 24
   value: 0
   weight: 10
-  Name: wooden club
+  itemName: wooden club
 --- !u!1 &1023609132
 GameObject:
   m_ObjectHideFlags: 0
@@ -15349,7 +15349,7 @@ MonoBehaviour:
   id: 22
   value: 2
   weight: 2
-  Name: Arrows
+  itemName: Arrows
 --- !u!1 &1091354156
 GameObject:
   m_ObjectHideFlags: 0
@@ -15533,7 +15533,7 @@ MonoBehaviour:
   id: 2
   value: 4
   weight: 15
-  Name: Iron Broadsword
+  itemName: Iron Shortsword
 --- !u!1 &1102656808
 GameObject:
   m_ObjectHideFlags: 0
@@ -15641,7 +15641,7 @@ MonoBehaviour:
   id: 12
   value: 50
   weight: 22
-  Name: Breaker Blade
+  itemName: Breaker Blade
 --- !u!1 &1144414034
 GameObject:
   m_ObjectHideFlags: 0
@@ -16071,7 +16071,7 @@ MonoBehaviour:
   id: 10
   value: 20
   weight: 8
-  Name: Leviathan Teeth
+  itemName: Orc Tooth
 --- !u!1 &1326598925
 GameObject:
   m_ObjectHideFlags: 0
@@ -16179,7 +16179,7 @@ MonoBehaviour:
   id: 3
   value: 2
   weight: 5
-  Name: Wood Bow
+  itemName: wooden bow
 --- !u!1 &1354354043
 GameObject:
   m_ObjectHideFlags: 0
@@ -17305,7 +17305,7 @@ MonoBehaviour:
   id: 8
   value: 9
   weight: 2
-  Name: sapphire
+  itemName: saphir
 --- !u!1 &1728911509
 GameObject:
   m_ObjectHideFlags: 0
@@ -17656,7 +17656,7 @@ MonoBehaviour:
   id: 26
   value: 75
   weight: 12
-  Name: ' Blood Rune Staff'
+  itemName: staff of the bloodmage
 --- !u!1 &1812646933
 GameObject:
   m_ObjectHideFlags: 0
@@ -17840,7 +17840,7 @@ MonoBehaviour:
   id: 9
   value: 50
   weight: 19
-  Name: Anklet of the Wind
+  itemName: Anklet of the Wind
 --- !u!1 &1828171647
 GameObject:
   m_ObjectHideFlags: 0
@@ -17948,7 +17948,7 @@ MonoBehaviour:
   id: 25
   value: 60
   weight: 8
-  Name: Molten Charm
+  itemName: feather necklace
 --- !u!1 &1845944118
 GameObject:
   m_ObjectHideFlags: 0
@@ -18357,7 +18357,7 @@ MonoBehaviour:
   id: 14
   value: 9
   weight: 2
-  Name: sapphire
+  itemName: Saphir
 --- !u!1 &1941497320
 GameObject:
   m_ObjectHideFlags: 0
@@ -18465,7 +18465,7 @@ MonoBehaviour:
   id: 18
   value: 26
   weight: 12
-  Name: Silver Shortsword
+  itemName: Iron Broadsword
 --- !u!1 &1952120779
 GameObject:
   m_ObjectHideFlags: 0
@@ -18573,7 +18573,7 @@ MonoBehaviour:
   id: 17
   value: 5
   weight: 4
-  Name: Poison Flask
+  itemName: Acid Flask
 --- !u!1 &1970650706
 GameObject:
   m_ObjectHideFlags: 0
@@ -19410,7 +19410,7 @@ MonoBehaviour:
   id: 13
   value: 13
   weight: 2
-  Name: Ruby
+  itemName: Ruby
 --- !u!1 &2141427729
 GameObject:
   m_ObjectHideFlags: 0

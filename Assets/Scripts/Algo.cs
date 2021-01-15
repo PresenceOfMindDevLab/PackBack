@@ -1,14 +1,16 @@
-﻿using System.Collections;
+﻿/**
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
-
+*/
 
 /**
  * @author $Harsh-shah, frah-abdo
  *
  */
+/**
 namespace KnapsackProblem
 {
 
@@ -108,3 +110,4 @@ namespace KnapsackProblem
         }
     }
 }
+*/
