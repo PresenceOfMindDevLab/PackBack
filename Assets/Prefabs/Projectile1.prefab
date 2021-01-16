@@ -145,10 +145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f73346392c290c40b7261893d40df23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitAnimation: {fileID: 0}
-  effectRemove: 2
+  hitAnimation: {fileID: 6051832616905559604, guid: a3adb90ea198caf45920992b73009183, type: 3}
+  effectRemove: 0.3
   lifetime: 2
-  projectileDamage: 30
 --- !u!95 &5268508522403946246
 Animator:
   serializedVersion: 3
