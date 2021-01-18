@@ -1,25 +1,37 @@
 fileFormatVersion: 2
-guid: 14de5c762fb13ea4cb1cb978a977593c
+guid: 3a435ca1667926945be6e15355a28843
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6192426536848704374
-    second: Bag_1
+      213: 607890798826870386
+    second: full_inventory4_1_0
   - first:
-      213: 6505476446303673584
-    second: Bag_2
+      213: 2012371710916292827
+    second: full_inventory4_1_1
   - first:
-      213: -3982699897904846022
-    second: Potion
+      213: -4296194041630563684
+    second: full_inventory4_1_2
   - first:
-      213: -1525994765961120657
-    second: Sword
+      213: -7297477709740479575
+    second: full_inventory4_1_3
   - first:
-      213: -3008452536146122016
-    second: Skull
+      213: 1149815950632336264
+    second: full_inventory4_1_4
   - first:
-      213: -6589072122327256089
-    second: Ring
+      213: 4675218392813304392
+    second: full_inventory4_1_5
+  - first:
+      213: 6871354354719349860
+    second: full_inventory4_1_6
+  - first:
+      213: 1579324888473864908
+    second: full_inventory4_1_7
+  - first:
+      213: -2713397010553734016
+    second: full_inventory4_1_8
+  - first:
+      213: 1125927764889790234
+    second: full_inventory4_1_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -107,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bag_1
+      name: full_inventory4_1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
-        width: 8
-        height: 8
+        x: 18
+        y: 224
+        width: 711
+        height: 299
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8c3e65afd4101aa0800000000000000
-      internalID: -6192426536848704374
+      spriteID: 276dd46f579af6800800000000000000
+      internalID: 607890798826870386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bag_2
+      name: full_inventory4_1_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 24
-        width: 8
-        height: 8
+        x: 740
+        y: 463
+        width: 133
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fcd9944c58184a50800000000000000
-      internalID: 6505476446303673584
+      spriteID: bd0f539b8616deb10800000000000000
+      internalID: 2012371710916292827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Potion
+      name: full_inventory4_1_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 24
-        width: 8
-        height: 8
+        x: 17
+        y: 18
+        width: 543
+        height: 189
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3ba56a4b8b9ab8c0800000000000000
-      internalID: -3982699897904846022
+      spriteID: c92e576084ad064c0800000000000000
+      internalID: -4296194041630563684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword
+      name: full_inventory4_1_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 24
-        width: 8
-        height: 8
+        x: 571
+        y: 146
+        width: 133
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6438cd68d392dae0800000000000000
-      internalID: -1525994765961120657
+      spriteID: 9ab669acfa62aba90800000000000000
+      internalID: -7297477709740479575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skull
+      name: full_inventory4_1_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 8
-        height: 8
+        x: 715
+        y: 80
+        width: 158
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ea236b9b54df36d0800000000000000
-      internalID: -3008452536146122016
+      spriteID: 88bb48ed387f4ff00800000000000000
+      internalID: 1149815950632336264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ring
+      name: full_inventory4_1_5
       rect:
         serializedVersion: 2
-        x: 8
-        y: 16
-        width: 8
-        height: 8
+        x: 571
+        y: 80
+        width: 133
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +238,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e3314da0d9ee84a0800000000000000
-      internalID: -6589072122327256089
+      spriteID: 84a720f9b56b1e040800000000000000
+      internalID: 4675218392813304392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full_inventory4_1_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 36
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c51ee2164fb5f50800000000000000
+      internalID: 6871354354719349860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full_inventory4_1_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 36
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca0b625e93eae510800000000000000
+      internalID: 1579324888473864908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full_inventory4_1_9
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 36
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a176105365910af00800000000000000
+      internalID: 1125927764889790234
       vertices: []
       indices: 
       edges: []
