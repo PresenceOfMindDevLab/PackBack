@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LoadData : MonoBehaviour
 {
+
+    Button takeAll;
 
     public static float[,] GetItemData()
     {
@@ -45,10 +48,15 @@ public class LoadData : MonoBehaviour
         return name;
 
     }
-    void run()
+
+
+
+    private void Awake()
     {
-        GetItemData();
+        takeAll = GetComponent<Button>();
+        takeAll.onClick.AddListener(() => { GetItemData(); });
     }
+
     // Start is called before the first frame update
     void Start()
     {
