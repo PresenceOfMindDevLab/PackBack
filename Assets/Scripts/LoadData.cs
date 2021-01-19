@@ -34,7 +34,15 @@ public class LoadData : MonoBehaviour
         return ItemMatrix;
     }
 
-    public void GetItemName(int ID)   {
+    public string GetItemName(int ID)   {
+        string Item;
+        string name;
+        Item = "Item_" + ID.ToString();
+
+        GameObject item = GameObject.Find(Item);
+        name = item.GetComponent<ItemValues>().itemName;
+
+        return name;
 
     }
 
