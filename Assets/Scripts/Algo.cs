@@ -12,7 +12,7 @@ using System;
 namespace KnapsackProblem
 {
 
-    public class Algo : MonoBehaviour
+    /*public class Algo : MonoBehaviour
     {
         // Start is called before the first frame update
         void Start()
@@ -106,5 +106,5 @@ namespace KnapsackProblem
 
             Console.WriteLine("Max Value:\t" + result);
         }
-    }
+    }*/
 }
