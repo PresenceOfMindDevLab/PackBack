@@ -5,47 +5,50 @@ using UnityEngine;
 public class LoadData : MonoBehaviour
 {
 
-    public static float[,]  GetItemData()   {
+    public static float[,] GetItemData()
+    {
 
-        int i;
+        string Item;
         int len;
         int ID;
         float Value;
         float Weight;
-                
-        GameObject[] Items;
-        Items = GameObject.FindGameObjectsWithTag("Item");
-        len = Items.Length;
+
+        len = 27;
 
         float[,] ItemMatrix = new float[len, 3];
-        i = 0;
-        foreach(GameObject item in Items)  {
+
+        for (int i = 1; i < len; i++)
+        {
+            Item = "Item_" + i.ToString();
+            GameObject item = GameObject.Find(Item);
+
             ID = item.GetComponent<ItemValues>().id;
             Value = item.GetComponent<ItemValues>().value;
             Weight = item.GetComponent<ItemValues>().weight;
-
+            print(ID);
             ItemMatrix[i, 0] = ID;
             ItemMatrix[i, 1] = Value;
             ItemMatrix[i, 2] = Weight;
 
-
-            i += 1;
         }
         return ItemMatrix;
     }
 
-    public string GetItemName(int ID)   {
+    public static string GetItemName(int ID)   {
         string Item;
         string name;
         Item = "Item_" + ID.ToString();
 
         GameObject item = GameObject.Find(Item);
         name = item.GetComponent<ItemValues>().itemName;
-
         return name;
 
     }
-
+    void run()
+    {
+        GetItemData();
+    }
     // Start is called before the first frame update
     void Start()
     {
