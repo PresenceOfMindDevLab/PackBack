@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     public GameObject itemDrop;
     public float animationRemove;
     public Transform itemDropPoint;
+    public bool isDead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,17 +33,27 @@ public class Enemy : MonoBehaviour
         {
             //GameObject animation = Instantiate(deathAnimation, transform.position, Quaternion.identity);
             //Destroy(animation, animationRemove);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            //Destroy(gameObject);
+            DropItem();
+            
         }
         
 
     }
 
-    private void OnDestroy()
+    void DropItem()
     {
-        //drops item at iItemDropPoint position
         Instantiate(itemDrop, itemDropPoint.position, itemDrop.transform.rotation);
         col.SetActive(true);
     }
+
+    /*private void OnDestroy()
+    {
+        //drops item at iItemDropPoint position
+        Instantiate(itemDrop, itemDropPoint.position, itemDrop.transform.rotation);
+        isDead = true;
+        col.SetActive(true);
+    }*/
 
 }

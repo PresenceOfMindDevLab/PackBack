@@ -26,7 +26,7 @@ public class triggerinv : MonoBehaviour
     {
         if(col.tag == "Player" && itemsTaken == false)
         {
-            inRange = true;
+            //inRange = true;
             inventoryOpen = true;
             fullinventory.SetActive(true);
 
@@ -37,8 +37,8 @@ public class triggerinv : MonoBehaviour
     {
         if(col.tag == "Player")
         {
-            inRange = false;
-            itemsTaken = true;
+            //inRange = false;
+            //itemsTaken = true;
             inventoryOpen = false;
             fullinventory.SetActive(false);
         }

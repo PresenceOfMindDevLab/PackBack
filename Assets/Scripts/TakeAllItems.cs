@@ -87,4 +87,10 @@ public class TakeAllItems : MonoBehaviour
 
         weightText.text = total.ToString();
     }
+
+    private void Update()
+    {
+        //GetAllValue();
+        //GetAllWeigth();
+    }
 }
