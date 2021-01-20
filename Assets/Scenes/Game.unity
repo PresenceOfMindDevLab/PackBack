@@ -2893,7 +2893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1157332995}
-  hideDistance: 13.49
+  hideDistance: 4
 --- !u!1001 &197261255
 PrefabInstance:
   m_ObjectHideFlags: 0
