@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: 389}
+  m_AnchoredPosition: {x: 31, y: 379}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1211247
@@ -293,7 +293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 580, y: -370}
+  m_AnchoredPosition: {x: 537.1, y: -347.7}
   m_SizeDelta: {x: 330, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109278359
@@ -1171,7 +1171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -240, y: 35}
+  m_AnchoredPosition: {x: -201, y: 46}
   m_SizeDelta: {x: 330, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921736358
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Das Problem in diesem Spiel ist das sogenannte \"Rucksackproblem\". Dabei
+  m_text: "Das Problem in diesem Spiel ist das sogenannte \"Rucksackproblem\".  Dabei
     hat man einen Rucksack mit einer vorgegeneben Maximallast und diverse Gegenst\xE4nde,
     mit verscheidenem Gewicht und Wert. \nDas Ziel ist es so viel wie m\xF6glich
     Gegenst\xE4nde mitzunehmen ohne dabie die Maximallast zu \xFCberschreiten."
@@ -1816,7 +1816,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -602.97974, w: -302.0351}
+  m_margin: {x: 10.663605, y: 0, z: -588.4385, w: -302.0351}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2428,7 +2428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -238, y: -40}
+  m_AnchoredPosition: {x: -199, y: -29}
   m_SizeDelta: {x: 330, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488459524
@@ -2754,7 +2754,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1787965389
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2800,7 +2800,7 @@ MonoBehaviour:
     ausrechnen, dann geht er die Gegenst\xE4nde der Reihe nach durch und sortiert
     absteigend nach dem gerade errechnetem Verh\xE4ltnis.\nHat er das geschafft beginnt
     er die Gegenst\xE4nde der Reihe nach in den Rucksack zu sortieren, bis dieser
-    voll ist.\nIm Rucksack sollte dann der h\xE4chstm\xF6gliche Wer zu finden sein."
+    voll ist.\nIm  Rucksack sollte dann der h\xE4chstm\xF6gliche Wer zu finden sein."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
   m_sharedMaterial: {fileID: 29742093886790339, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
@@ -2844,7 +2844,7 @@ MonoBehaviour:
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
+  m_wordWrappingRatios: 0.266
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
@@ -2863,7 +2863,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -602.97974, w: -302.0351}
+  m_margin: {x: 9.939087, y: 0, z: -585.08936, w: -302.0351}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2911,8 +2911,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -19, y: -13.934906}
-  m_SizeDelta: {x: 974, y: 609}
+  m_AnchoredPosition: {x: -18.992, y: -13.938}
+  m_SizeDelta: {x: 882.0459, y: 551.02576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1795243390
 MonoBehaviour:
@@ -3122,7 +3122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -240, y: 110}
+  m_AnchoredPosition: {x: -201, y: 121}
   m_SizeDelta: {x: 330, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1892413152
@@ -3399,7 +3399,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Nach dem Start des Spiels, befindet man sich als der Magier \"Magnus\"
     in einem Dungeon. \n\nW, A, S, D\t\t\t- Bewegen\nI\t\t\t\t- Inventar \xF6ffnen\nLinke
-    Maustaste\t- Feuerball schie\xDFen"
+    Maustaste\t- Feuerball schie\xDFen\nEsc\t\t\t\t- Zur\xFCck zum Hauptmen\xFC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
   m_sharedMaterial: {fileID: 29742093886790339, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
@@ -3462,7 +3462,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -602.97974, w: -302.0351}
+  m_margin: {x: 10.890747, y: 0, z: -584.8677, w: -302.0351}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3586,11 +3586,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -10
+      value: -253.1
       objectReference: {fileID: 0}
     - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -250
+      value: -226.6
       objectReference: {fileID: 0}
     - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3616,6 +3616,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 2012868604}
+    - target: {fileID: 1737444437845016840, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737444437845016840, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
 --- !u!1001 &8195452339531987748
@@ -3691,11 +3699,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8195452340369663748, guid: ac7807fffca86ba44b156afad0be4aa2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 580
+      value: 537.4
       objectReference: {fileID: 0}
     - target: {fileID: 8195452340369663748, guid: ac7807fffca86ba44b156afad0be4aa2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -370
+      value: -346.4
       objectReference: {fileID: 0}
     - target: {fileID: 8195452340369663748, guid: ac7807fffca86ba44b156afad0be4aa2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

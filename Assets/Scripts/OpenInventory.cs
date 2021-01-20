@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OpenInventory : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class OpenInventory : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             inventory.SetActive(!inventory.activeSelf);
+        }
+
+        //go back to main menu
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 }

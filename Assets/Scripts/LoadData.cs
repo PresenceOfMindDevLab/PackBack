@@ -24,7 +24,7 @@ public class LoadData : MonoBehaviour
     private void Awake()
     {
         takeAll = GetComponent<Button>();
-        takeAll.onClick.AddListener(() => { GetItemData(); });
+        //takeAll.onClick.AddListener(() => { GetItemData(); });
     }
 
     // Start is called before the first frame update
