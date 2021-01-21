@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class AllInventoryItems : MonoBehaviour
 {
-    public Transform[] allInventorySlots;
+    public ItemSlot[] allInventorySlots;
 
-    public Transform GetInventorySlot(int id)
+    public ItemSlot GetInventorySlot(int id)
     {
         return allInventorySlots[id];
+    }
+
+    public void SetAllRed()
+    {
+        foreach (var item in allInventorySlots)
+        {
+            item.DisplayRed();
+        }
     }
 }
