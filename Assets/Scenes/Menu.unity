@@ -3398,9 +3398,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Nach dem Start des Spiels, befindet man sich als der Magier \"Magnus\"
-    in einem Dungeon. \n\nW, A, S, D\t\t\t- Bewegen\nI\t\t\t\t- Inventar \xF6ffnen\nLinke
-    Maustaste\t- Feuerball schie\xDFen\nEsc\t\t\t\t- Zur\xFCck zum Hauptmen\xFC\n\nFolge 
-    dem   roten  Pfeil!"
+    in einem Dungeon. \n\nW, A, S, D\t\t\t- Bewegen\nLinke Maustaste\t- Feuerball
+    schie\xDFen\nEsc\t\t\t\t- Zur\xFCck zum Hauptmen\xFC\n\nFolge  dem   roten  Pfeil!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
   m_sharedMaterial: {fileID: 29742093886790339, guid: a31fced3f4885b143bc965d4844a0192, type: 2}

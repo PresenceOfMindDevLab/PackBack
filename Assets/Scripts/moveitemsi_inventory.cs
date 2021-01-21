@@ -23,7 +23,7 @@ public class moveitemsi_inventory : MonoBehaviour
         if (endMarker != null)
         {
             // Set our position as a fraction of the distance between the markers.
-            transform.position = Vector3.Lerp(transform.position, endMarker.transform.position, 2 * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, endMarker.transform.position, 5 * Time.deltaTime);
             if ((transform.position - endMarker.transform.position).magnitude < 1f)
             {
                 endMarker = null;

@@ -13,7 +13,7 @@ public class TakeAllItems : MonoBehaviour
 
     private Coroutine sortCorutine;
 
-    private float getcost(ItemValues item) 
+    public float getcost(ItemValues item) 
     {
         return item.value / item.weight;
     }
@@ -155,5 +155,11 @@ public class TakeAllItems : MonoBehaviour
             yield return new WaitForSeconds(2);
         }
         sortCorutine = null;
+    }
+
+    private void Update()
+    {
+        GetAllWeigth();
+        GetAllValue();
     }
 }
