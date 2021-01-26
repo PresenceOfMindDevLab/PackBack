@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     public Rigidbody2D rotationRB;
     public Camera camera;
     public GameObject fullinventory;
+    public GameObject startInfo;
 
     public float moveSpeed;
     Vector2 movement;
@@ -35,7 +36,7 @@ public class Movement : MonoBehaviour
         mousePosition = camera.ScreenToWorldPoint(Input.mousePosition);
         inventoryOpen = fullinventory.GetComponent<triggerinv>().inventoryOpen;
         //left click for shooting; only shoot if not moving and inventory is not open
-        if (Input.GetButtonDown("Fire1") && isMoving == false && inventoryOpen == false)
+        if (Input.GetButtonDown("Fire1") && isMoving == false && inventoryOpen == false && !startInfo.active)
         {
             Shoot();
         }
