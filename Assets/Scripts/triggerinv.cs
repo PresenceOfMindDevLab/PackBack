@@ -26,6 +26,9 @@ public class triggerinv : MonoBehaviour
     {
         if(col.tag == "Player" && itemsTaken == false)
         {
+
+            FindObjectOfType<AudioManager>().Play("OpenChest");
+
             //inRange = true;
             inventoryOpen = true;
             fullinventory.SetActive(true);
@@ -37,6 +40,9 @@ public class triggerinv : MonoBehaviour
     {
         if(col.tag == "Player")
         {
+
+            FindObjectOfType<AudioManager>().Play("CloseChest");
+
             //inRange = false;
             //itemsTaken = true;
             inventoryOpen = false;

@@ -31,6 +31,9 @@ public class Enemy : MonoBehaviour
         
         if(collider.CompareTag("Projectile"))
         {
+
+            FindObjectOfType<AudioManager>().Play("OgreDeath");
+
             //GameObject animation = Instantiate(deathAnimation, transform.position, Quaternion.identity);
             //Destroy(animation, animationRemove);
             gameObject.SetActive(false);
@@ -44,6 +47,8 @@ public class Enemy : MonoBehaviour
 
     void DropItem()
     {
+        FindObjectOfType<AudioManager>().Play("DropChest");
+
         Instantiate(itemDrop, itemDropPoint.position, itemDrop.transform.rotation);
         col.SetActive(true);
     }

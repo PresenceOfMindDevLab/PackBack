@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
+    public bool alreadyPlayed = false;
     public Animator animator;
     public Rigidbody2D rb;
     public Rigidbody2D rotationRB;
@@ -32,6 +33,9 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+
+        
+
         mousePosition = camera.ScreenToWorldPoint(Input.mousePosition);
         inventoryOpen = fullinventory.GetComponent<triggerinv>().inventoryOpen;
         //left click for shooting; only shoot if not moving and inventory is not open
@@ -48,6 +52,9 @@ public class Movement : MonoBehaviour
 
         if(movement != Vector2.zero)
         {
+            
+            //FindObjectOfType<AudioManager>().Play("MageSteps");
+
             Move();
             animator.SetFloat("moveX", movement.x);
             animator.SetFloat("moveY", movement.y);
@@ -86,6 +93,4 @@ public class Movement : MonoBehaviour
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
         rb.AddForce(shootingPoint.up * projectileForce, ForceMode2D.Impulse);
     }
-
-
 }
