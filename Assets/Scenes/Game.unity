@@ -6116,6 +6116,7 @@ MonoBehaviour:
   rotationRB: {fileID: 63636224}
   camera: {fileID: 2102337044}
   fullinventory: {fileID: 1679826791}
+  startInfo: {fileID: 1590667544}
   moveSpeed: 3
   lookLeft: 0
   shootingPoint: {fileID: 63636223}

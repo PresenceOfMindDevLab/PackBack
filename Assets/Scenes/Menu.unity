@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: 379}
+  m_AnchoredPosition: {x: 31, y: 317}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1211247
@@ -942,7 +942,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689098786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19, y: 13.934906, z: -5.4618115}
+  m_LocalPosition: {x: 25, y: 13.934906, z: -5.4618115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1795243389}
@@ -978,8 +978,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698646773}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20, y: -166, z: -5.4618115}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -20, y: -192, z: -5.4618115}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 1211246}
   - {fileID: 1892413151}
@@ -1171,7 +1171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -201, y: 46}
+  m_AnchoredPosition: {x: -225, y: 38}
   m_SizeDelta: {x: 330, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921736358
@@ -1718,7 +1718,7 @@ RectTransform:
   m_GameObject: {fileID: 1040027825}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5.4618115}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.564098, y: 1.564098, z: 1.564098}
   m_Children:
   - {fileID: 154644318}
   - {fileID: 109278358}
@@ -1727,7 +1727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -310, y: 120}
+  m_AnchoredPosition: {x: -477, y: 193}
   m_SizeDelta: {x: 220, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1040027827
@@ -1750,10 +1750,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Das Problem in diesem Spiel ist das sogenannte \"Rucksackproblem\".  Dabei
-    hat man einen Rucksack mit einer vorgegeneben Maximallast und diverse Gegenst\xE4nde,
-    mit verscheidenem Gewicht und Wert. \nDas Ziel ist es so viel wie m\xF6glich
-    Gegenst\xE4nde mitzunehmen ohne dabie die Maximallast zu \xFCberschreiten."
+  m_text: "Das Problem in dem es in diesem Spiel geht ist das sogenannte Rucksackproblem.
+    Dabei hat man einen Rucksack mit einer vorgegebenen Maximallast und diverse Gegenst\xE4nde
+    mit verschiedenem Gewicht und Wert. Das Ziel ist es nun so viel Gegenst\xE4nde
+    wie m\xF6glich mitzunehmen ohne dabei die Maximallast zu \xFCberschreiten und
+    am Ende einen h\xF6chstm\xF6glichen Wert zu haben."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
   m_sharedMaterial: {fileID: 29742093886790339, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
@@ -1780,8 +1781,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27
-  m_fontSizeBase: 27
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1791,7 +1792,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 15
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
@@ -2428,7 +2429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -199, y: -29}
+  m_AnchoredPosition: {x: -223, y: -37}
   m_SizeDelta: {x: 330, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488459524
@@ -2764,7 +2765,7 @@ RectTransform:
   m_GameObject: {fileID: 1787965388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5.4618115}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.564098, y: 1.564098, z: 1.564098}
   m_Children:
   - {fileID: 930492306}
   m_Father: {fileID: 689098787}
@@ -2772,7 +2773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -310, y: 120}
+  m_AnchoredPosition: {x: -477, y: 193}
   m_SizeDelta: {x: 220, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787965390
@@ -2795,12 +2796,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In diesem Spiel wird ein Greedy-Algorithmus vorgestellt.\nAls erstes muss
-    er hierf\xFCr das Wert zu Gewicht Verh\xE4ltnis f\xFCr jeden Gegenstand ausrechnen,
-    dann geht er die Gegenst\xE4nde der Reihe nach durch und sortiert absteigend
-    nach dem gerade errechnetem Verh\xE4ltnis.\nHat er das geschafft beginnt er die
-    Gegenst\xE4nde der Reihe nach in den Rucksack zu sortieren, bis dieser voll ist.\nIm 
-    Rucksack sollte dann der h\xE4chstm\xF6gliche Wer zu finden sein."
+  m_text: "Um das Rucksackproblem zu l\xF6sen kann man verschiedene Algorithmen benutzen.
+    In diesem Spiel wird der Greedy-Algorithmus vorgestellt. Als aller erstes muss
+    er hierf\xFCr das Wert zu Gewicht Verh\xE4ltnis f\xFCr jeden Gegenstand ausrechnen.
+    Dann geht er sie alle der Reihe nach durch und sortiert sie absteigend nach dem
+    gerade ausgerechneten Verh\xE4ltnis. Hat er das geschafft beginnt er die Gegenst\xE4nde
+    der Reihe nach in den Rucksack zu verschieben, bis dieser voll ist. Im Rucksack
+    sollte dann der h\xF6chstm\xF6gliche Wert zu finden sein."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
   m_sharedMaterial: {fileID: 29742093886790339, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
@@ -2827,8 +2829,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2838,7 +2840,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 15
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
@@ -2903,16 +2905,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795243388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.4618115}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.621, y: 1.621, z: 1.6}
   m_Children: []
   m_Father: {fileID: 689098787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -18.992, y: -13.938}
-  m_SizeDelta: {x: 882.0459, y: 551.02576}
+  m_AnchoredPosition: {x: -25.399994, y: -14}
+  m_SizeDelta: {x: 895.78345, y: 559.4326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1795243390
 MonoBehaviour:
@@ -3122,7 +3124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -201, y: 121}
+  m_AnchoredPosition: {x: -225, y: 113}
   m_SizeDelta: {x: 330, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1892413152
@@ -3365,7 +3367,7 @@ RectTransform:
   m_GameObject: {fileID: 2012868604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5.4618115}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.564098, y: 1.564098, z: 1.564098}
   m_Children:
   - {fileID: 120896119}
   - {fileID: 1309809696}
@@ -3374,7 +3376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -310, y: 120}
+  m_AnchoredPosition: {x: -477, y: 193}
   m_SizeDelta: {x: 220, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012868606
@@ -3437,7 +3439,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_wordSpacing: 15
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
@@ -3557,6 +3559,18 @@ PrefabInstance:
       value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.564098
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.564098
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.564098
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -3586,11 +3600,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -253.1
+      value: -388
       objectReference: {fileID: 0}
     - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -226.6
+      value: -349.12
       objectReference: {fileID: 0}
     - target: {fileID: 1737444437538926166, guid: 5e9d3536511e6e049a31cac036dad624, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
