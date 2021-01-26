@@ -11,6 +11,8 @@ public class TakeAllItems : MonoBehaviour
     public TextMeshProUGUI weightText;
     public TextMeshProUGUI valueText;
 
+    //public TextMeshProUGUI weightInput;
+
     private Coroutine sortCorutine;
 
     public float getcost(ItemValues item) 

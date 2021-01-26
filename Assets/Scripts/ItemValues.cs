@@ -54,7 +54,8 @@ public class ItemValues : MonoBehaviour
         if(inInventory)
         {
             return;
-        } else
+        } 
+        else
         {
             value = Random.Range(1, 50);
             weight = Random.Range(1, 50);

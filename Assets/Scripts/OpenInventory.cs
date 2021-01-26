@@ -10,10 +10,10 @@ public class OpenInventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        /*if (Input.GetKeyDown(KeyCode.I))
         {
             inventory.SetActive(!inventory.activeSelf);
-        }
+        }*/
 
         //go back to main menu
         if (Input.GetKeyDown(KeyCode.Escape))
