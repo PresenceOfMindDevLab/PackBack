@@ -152,6 +152,7 @@ public class TakeAllItems : MonoBehaviour
             itemslist[i].GetComponent<moveitemsi_inventory>().ToggleState(allChestItemsLocations.GetInventorySlot(i));
             itemslist[i].inInventory = false;
             allChestItemsLocations.GetInventorySlot(i).DisplayGreen();
+            //FindObjectOfType<AudioManager>().Play("AlgTakesIt");
             yield return new WaitForSeconds(2);
         }
         sortCorutine = null;

@@ -15,6 +15,9 @@ public class Projectile : MonoBehaviour
 
         if(collider.CompareTag("Enemy"))
         {
+
+            FindObjectOfType<AudioManager>().Play("FireballHitOgre");
+
             GameObject effect = Instantiate(hitAnimation, transform.position, Quaternion.identity);
             Destroy(effect, effectRemove);
             
@@ -26,6 +29,9 @@ public class Projectile : MonoBehaviour
 
     private void Start()
     {
+
+        FindObjectOfType<AudioManager>().Play("FireballCast");
+
         Destroy(gameObject, lifetime);
     }
 
