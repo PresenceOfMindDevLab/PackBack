@@ -21,7 +21,6 @@ public class ItemValues : MonoBehaviour
 
     private void Awake()
     {
-        
         Randomize();
         GetValue();
         GetWeight();
