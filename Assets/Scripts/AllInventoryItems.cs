@@ -18,4 +18,12 @@ public class AllInventoryItems : MonoBehaviour
             item.DisplayRed();
         }
     }
+
+    public void SetAllBlack()
+    {
+        foreach(var item in allInventorySlots)
+        {
+            //
+        }
+    }
 }

@@ -11,6 +11,8 @@ public class TakeAllItems : MonoBehaviour
     public TextMeshProUGUI weightText;
     public TextMeshProUGUI valueText;
 
+    //public TextMeshProUGUI weightInput;
+
     private Coroutine sortCorutine;
 
     public float getcost(ItemValues item) 
@@ -38,13 +40,23 @@ public class TakeAllItems : MonoBehaviour
             // getcost(item) == item.value / item.weight
             return getcost(y).CompareTo(getcost(x));
         });
+        float maxWeigth = 220;
+        int invSlot = 0;
 
-        for (int counter =0; counter < itemslist.Count; counter++)
+        for (int counter = 0; counter < itemslist.Count; counter++)
         {
-            if (counter < 21)
+            float itemWeight = itemslist[counter].gameObject.GetComponent<ItemValues>().weight;
+
+            if (counter < 21) //add max weight stuff
             {
-                itemslist[counter].gameObject.GetComponent<moveitemsi_inventory>().ToggleState(allInventoryItemsLocations.GetInventorySlot(counter));
-                itemslist[counter].inInventory = true;
+                if (maxWeigth >= itemWeight)
+                {
+                    itemslist[counter].gameObject.GetComponent<moveitemsi_inventory>().ToggleState(allInventoryItemsLocations.GetInventorySlot(invSlot));
+                    itemslist[counter].inInventory = true;
+
+                    invSlot++;
+                    maxWeigth -= itemWeight;
+                }
             }
             else
             {
