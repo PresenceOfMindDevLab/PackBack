@@ -73,6 +73,7 @@ public class TakeAllItems : MonoBehaviour
         {
             return;
         }
+
         for (int counter = 0; counter < Items.Length; counter++)
         {
             if (counter < 21)
@@ -168,6 +169,41 @@ public class TakeAllItems : MonoBehaviour
             allChestItemsLocations.GetInventorySlot(i).DisplayGreen();
             //FindObjectOfType<AudioManager>().Play("AlgTakesIt");
             yield return new WaitForSeconds(2);
+        }
+
+        // set all black
+        float maxWeigth = 220;
+        int invSlot = 0;
+        int itemInInv = 0;
+
+        for (int counter = 0; counter < itemslist.Count; counter++)
+        {
+            float itemWeight = itemslist[counter].gameObject.GetComponent<ItemValues>().weight;
+
+            if (itemInInv < 21) 
+            {
+                if (maxWeigth >= itemWeight)
+                {
+                    while (pauseSort)
+                    {
+                        yield return new WaitForEndOfFrame();
+                    }
+                    //itemslist[counter] set green
+                    invSlot++;
+                    itemInInv++;
+                    maxWeigth -= itemWeight;
+                    yield return new WaitForSeconds(1);
+                }
+            }
+            else
+            {
+                while (pauseSort)
+                {
+                    yield return new WaitForEndOfFrame();
+                }
+                //itemslist[counter].inInventory set red
+                yield return new WaitForSeconds(1);
+            }
         }
         sortCorutine = null;
     }
