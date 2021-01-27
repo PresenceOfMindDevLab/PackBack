@@ -6,7 +6,7 @@ using TMPro;
 
 public class CustomWeight : MonoBehaviour
 {
-
+    public Text WeightInputField;
     public TextMeshProUGUI weightInput;
 
     // Start is called before the first frame update

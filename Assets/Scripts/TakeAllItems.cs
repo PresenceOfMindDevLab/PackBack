@@ -40,13 +40,21 @@ public class TakeAllItems : MonoBehaviour
             // getcost(item) == item.value / item.weight
             return getcost(y).CompareTo(getcost(x));
         });
+        float maxWeigth = 220;
 
         for (int counter =0; counter < itemslist.Count; counter++)
         {
-            if (counter < 21)
+            float itemWeight = itemslist[counter].gameObject.GetComponent<ItemValues>().weight;
+
+            if (counter < 21) //add max weight stuff
             {
-                itemslist[counter].gameObject.GetComponent<moveitemsi_inventory>().ToggleState(allInventoryItemsLocations.GetInventorySlot(counter));
-                itemslist[counter].inInventory = true;
+                if (maxWeigth >= itemWeight)
+                {
+                    itemslist[counter].gameObject.GetComponent<moveitemsi_inventory>().ToggleState(allInventoryItemsLocations.GetInventorySlot(counter));
+                    itemslist[counter].inInventory = true;
+
+                    maxWeigth -= itemWeight;
+                }
             }
             else
             {
