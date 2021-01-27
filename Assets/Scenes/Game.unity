@@ -57594,6 +57594,11 @@ MonoBehaviour:
     volume: 0.2
     pitch: 1
     source: {fileID: 0}
+  - name: Success
+    clip: {fileID: 8300000, guid: c8693eebd3944524dad1f211f42fa21f, type: 3}
+    volume: 0.01
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1 &916912293
 GameObject:
   m_ObjectHideFlags: 0
