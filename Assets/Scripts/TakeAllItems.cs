@@ -168,10 +168,10 @@ public class TakeAllItems : MonoBehaviour
             itemslist[i].inInventory = false;
             allChestItemsLocations.GetInventorySlot(i).DisplayGreen();
             //FindObjectOfType<AudioManager>().Play("AlgTakesIt");
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
         }
 
-        // set all black
+        allChestItemsLocations.SetAllRed();
         float maxWeigth = 220;
         int invSlot = 0;
         int itemInInv = 0;
@@ -188,7 +188,7 @@ public class TakeAllItems : MonoBehaviour
                     {
                         yield return new WaitForEndOfFrame();
                     }
-                    //itemslist[counter] set green
+                    allChestItemsLocations.GetInventorySlot(counter).DisplayGreen();
                     invSlot++;
                     itemInInv++;
                     maxWeigth -= itemWeight;
@@ -201,7 +201,7 @@ public class TakeAllItems : MonoBehaviour
                 {
                     yield return new WaitForEndOfFrame();
                 }
-                //itemslist[counter].inInventory set red
+                allChestItemsLocations.GetInventorySlot(counter).DisplayRed();
                 yield return new WaitForSeconds(1);
             }
         }
