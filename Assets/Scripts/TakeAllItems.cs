@@ -42,12 +42,13 @@ public class TakeAllItems : MonoBehaviour
         });
         float maxWeigth = 220;
         int invSlot = 0;
+        int itemInInv = 0;
 
         for (int counter = 0; counter < itemslist.Count; counter++)
         {
             float itemWeight = itemslist[counter].gameObject.GetComponent<ItemValues>().weight;
 
-            if (counter < 21) //add max weight stuff
+            if (itemInInv < 21) //add max weight stuff
             {
                 if (maxWeigth >= itemWeight)
                 {
@@ -55,6 +56,7 @@ public class TakeAllItems : MonoBehaviour
                     itemslist[counter].inInventory = true;
 
                     invSlot++;
+                    itemInInv++;
                     maxWeigth -= itemWeight;
                 }
             }
