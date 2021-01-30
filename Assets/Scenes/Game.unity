@@ -6233,7 +6233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297290133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.1, y: -12.27, z: 0}
+  m_LocalPosition: {x: -5.99, y: -8.55, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children:
   - {fileID: 63636223}
@@ -6281,6 +6281,7 @@ GameObject:
   - component: {fileID: 300955296}
   - component: {fileID: 300955295}
   - component: {fileID: 300955294}
+  - component: {fileID: 300955297}
   m_Layer: 5
   m_Name: Greedy
   m_TagString: Untagged
@@ -6445,6 +6446,7 @@ MonoBehaviour:
   allChestItemsLocations: {fileID: 584560182}
   weightText: {fileID: 1957452237}
   valueText: {fileID: 900245670}
+  startButton: {fileID: 713351416}
 --- !u!114 &300955294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6584,6 +6586,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &300955297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300955288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa9a886ac423d348a0a62423236421e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greenColor: {fileID: 0}
+  redColor: {fileID: 0}
+  currentItem: {fileID: 0}
 --- !u!114 &305204500 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2184011188009896698, guid: 604c290caeb62ca45852d3a895a4b2cc, type: 3}
@@ -50887,7 +50904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &645259920
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60465,7 +60482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gewicht eingeben
+  m_text: 300 MaxWeight
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
   m_sharedMaterial: {fileID: 29742093886790339, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
@@ -67242,7 +67259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1590667545
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -76405,7 +76422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102337042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.36, y: -12.3645, z: -10}
+  m_LocalPosition: {x: -6.25, y: -8.6445, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2040886073}

@@ -10,6 +10,9 @@ public class TakeAllItems : MonoBehaviour
     public AllInventoryItems allChestItemsLocations;
     public TextMeshProUGUI weightText;
     public TextMeshProUGUI valueText;
+    public GameObject startButton;
+    public GameObject randomizeButton;
+    public GameObject randomizeText;
 
     //public TextMeshProUGUI weightInput;
 
@@ -31,16 +34,10 @@ public class TakeAllItems : MonoBehaviour
 
         itemslist.Sort(delegate (ItemValues x, ItemValues y)
         {
-            /*  No longer needed
-            if (x == null && y == null) return 0;
-            else if (x == null) return -1;
-            else if (y == null) return 1;
-            */
-
-            // getcost(item) == item.value / item.weight
             return getcost(y).CompareTo(getcost(x));
         });
-        float maxWeigth = 220;
+
+        float maxWeigth = 300;
         int invSlot = 0;
         int itemInInv = 0;
 
@@ -90,15 +87,20 @@ public class TakeAllItems : MonoBehaviour
 
     public void UndoButton()
     {
+
         if (sortCorutine != null)
         {
             return;
         }
+
         for (int counter = 0; counter < Items.Length; counter++)
         {
             Items[counter].gameObject.GetComponent<moveitemsi_inventory>().ReturnToStart();
             Items[counter].inInventory = false;
+            allChestItemsLocations.SetAllBlack();
         }
+
+        
     }
 
     public void GetAllValue()
@@ -133,11 +135,18 @@ public class TakeAllItems : MonoBehaviour
 
     public void SortByGreedy()
     {
-        sortCorutine = StartCoroutine(SortByGreedy_Coroutine());
-        pauseSort = false;
+        startSort = true;
+        if(startSort)
+        {
+            sortCorutine = StartCoroutine(SortByGreedy_Coroutine());
+            pauseSort = false;
+            //startButton.SetActive(false);
+        }
+        
     }
 
     private bool pauseSort = false;
+    private bool startSort = false;
     public void PauseCoroutine()
     {
         pauseSort = !pauseSort;
@@ -145,6 +154,9 @@ public class TakeAllItems : MonoBehaviour
 
     public IEnumerator SortByGreedy_Coroutine()
     {
+        startButton.SetActive(false);
+        randomizeButton.SetActive(false);
+        randomizeText.SetActive(true);
         List<ItemValues> itemslist = new List<ItemValues>(Items);
 
         itemslist.Sort(delegate (ItemValues x, ItemValues y)
@@ -157,13 +169,15 @@ public class TakeAllItems : MonoBehaviour
 
         allChestItemsLocations.SetAllRed();
 
-
         for (int i = 0; i < itemslist.Count; i++)
         {
             while (pauseSort)
             {
+                //startButton.SetActive(false);
                 yield return new WaitForEndOfFrame();
+                //startButton.SetActive(true);
             }
+
             itemslist[i].GetComponent<moveitemsi_inventory>().ToggleState(allChestItemsLocations.GetInventorySlot(i));
             itemslist[i].inInventory = false;
             allChestItemsLocations.GetInventorySlot(i).DisplayGreen();
@@ -172,7 +186,8 @@ public class TakeAllItems : MonoBehaviour
         }
 
         allChestItemsLocations.SetAllRed();
-        float maxWeigth = 220;
+
+        float maxWeigth = 300;
         int invSlot = 0;
         int itemInInv = 0;
 
@@ -186,7 +201,9 @@ public class TakeAllItems : MonoBehaviour
                 {
                     while (pauseSort)
                     {
+                        //startButton.SetActive(false);
                         yield return new WaitForEndOfFrame();
+                        //startButton.SetActive(true);
                     }
                     allChestItemsLocations.GetInventorySlot(counter).DisplayGreen();
                     invSlot++;
@@ -199,13 +216,22 @@ public class TakeAllItems : MonoBehaviour
             {
                 while (pauseSort)
                 {
+                    //startButton.SetActive(false);
                     yield return new WaitForEndOfFrame();
+                    //startButton.SetActive(true);
                 }
                 allChestItemsLocations.GetInventorySlot(counter).DisplayRed();
                 yield return new WaitForSeconds(1);
             }
         }
+        //startSort = false;
         sortCorutine = null;
+        Greedy();
+        yield return new WaitForSeconds(1);
+        allChestItemsLocations.SetAllBlack();
+        startButton.SetActive(true);
+        randomizeButton.SetActive(true);
+        randomizeText.SetActive(false);
     }
 
     private void Update()

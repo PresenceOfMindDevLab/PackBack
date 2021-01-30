@@ -31,4 +31,10 @@ public class ItemSlot : MonoBehaviour
         greenColor.gameObject.SetActive(false);
         redColor.gameObject.SetActive(true);
     }
+
+    public void DisplayBlack()
+    {
+        greenColor.gameObject.SetActive(false);
+        redColor.gameObject.SetActive(false);
+    }
 }

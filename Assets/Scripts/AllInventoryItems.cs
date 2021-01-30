@@ -23,7 +23,7 @@ public class AllInventoryItems : MonoBehaviour
     {
         foreach(var item in allInventorySlots)
         {
-            //
+            item.DisplayBlack();
         }
     }
 }
