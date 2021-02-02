@@ -11,6 +11,7 @@ public class TakeAllItems : MonoBehaviour
     public AllInventoryItems allChestItemsLocations;
     public TextMeshProUGUI weightText;
     public TextMeshProUGUI valueText;
+    public TextMeshProUGUI outputText;
     public GameObject startButton;
     public GameObject randomizeButton;
     public GameObject randomizeText;
