@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
         //disable camera
         cam.enabled = false;
         //loading game scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Story");
     }
 
     public void ExitGame()

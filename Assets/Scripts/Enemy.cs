@@ -47,6 +47,8 @@ public class Enemy : MonoBehaviour
 
     void DropItem()
     {
+        FindObjectOfType<AudioManager>().Play("Success");
+
         FindObjectOfType<AudioManager>().Play("DropChest");
 
         Instantiate(itemDrop, itemDropPoint.position, itemDrop.transform.rotation);
