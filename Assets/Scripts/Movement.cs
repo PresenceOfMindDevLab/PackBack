@@ -34,9 +34,6 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-
-        
-
         mousePosition = camera.ScreenToWorldPoint(Input.mousePosition);
         inventoryOpen = fullinventory.GetComponent<triggerinv>().inventoryOpen;
         //left click for shooting; only shoot if not moving and inventory is not open
