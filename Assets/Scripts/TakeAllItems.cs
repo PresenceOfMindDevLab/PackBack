@@ -83,6 +83,10 @@ public class TakeAllItems : MonoBehaviour
 
     public void Normal()
     {
+
+        float maxWeight = maximumWeight;
+        int invSlot = 0;
+
         if (sortCorutine != null)
         {
             return;
@@ -90,10 +94,17 @@ public class TakeAllItems : MonoBehaviour
 
         for (int counter = 0; counter < Items.Length; counter++)
         {
+            float itemWeight = Items[counter].gameObject.GetComponent<ItemValues>().weight;
             if (counter < 21)
             {
-                Items[counter].gameObject.GetComponent<moveitemsi_inventory>().ToggleState(allInventoryItemsLocations.GetInventorySlot(counter));
-                Items[counter].inInventory = true;
+                if (maxWeight >= itemWeight)
+                {
+                    Items[counter].gameObject.GetComponent<moveitemsi_inventory>().ToggleState(allInventoryItemsLocations.GetInventorySlot(invSlot));
+                    Items[counter].inInventory = true;
+                    maxWeight -= itemWeight;
+                    invSlot++;
+                }
+
             }
             else
             {
