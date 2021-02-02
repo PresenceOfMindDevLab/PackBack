@@ -216,7 +216,7 @@ public class TakeAllItems : MonoBehaviour
 
         allChestItemsLocations.SetAllRed();
 
-        float maxWeigth = 300;
+        float maxWeigth = maximumWeight;
         int invSlot = 0;
         int itemInInv = 0;
 
