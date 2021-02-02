@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -13,10 +14,26 @@ public class TakeAllItems : MonoBehaviour
     public GameObject startButton;
     public GameObject randomizeButton;
     public GameObject randomizeText;
+    [HideInInspector] public float maximumWeight = 300;
+    public GameObject invalidWeightScreen;
 
     //public TextMeshProUGUI weightInput;
 
     private Coroutine sortCorutine;
+
+    public void SetWeight(string weight)
+    {
+        try
+        {
+            maximumWeight = float.Parse(weight);
+            invalidWeightScreen.SetActive(false);
+            return;
+        }
+        catch (Exception e)
+        {
+            invalidWeightScreen.SetActive(true);
+        }
+    }
 
     public float getcost(ItemValues item) 
     {
@@ -37,9 +54,9 @@ public class TakeAllItems : MonoBehaviour
             return getcost(y).CompareTo(getcost(x));
         });
 
-        float maxWeigth = 300;
         int invSlot = 0;
         int itemInInv = 0;
+        float maxWeight = maximumWeight;
 
         for (int counter = 0; counter < itemslist.Count; counter++)
         {
@@ -47,14 +64,14 @@ public class TakeAllItems : MonoBehaviour
 
             if (itemInInv < 21) //add max weight stuff
             {
-                if (maxWeigth >= itemWeight)
+                if (maxWeight >= itemWeight)
                 {
                     itemslist[counter].gameObject.GetComponent<moveitemsi_inventory>().ToggleState(allInventoryItemsLocations.GetInventorySlot(invSlot));
                     itemslist[counter].inInventory = true;
 
                     invSlot++;
                     itemInInv++;
-                    maxWeigth -= itemWeight;
+                    maxWeight -= itemWeight;
                 }
             }
             else
@@ -83,6 +100,18 @@ public class TakeAllItems : MonoBehaviour
                 Items[counter].inInventory = false;
             }
         }
+    }
+
+    public void TakeItem(moveitemsi_inventory item)
+    {
+        ItemSlot slot = allInventoryItemsLocations.GetNextOpenInventorySlot();
+        if (slot != null)
+        {
+            item.GetComponent<ItemValues>().inInventory = true;
+            item.ToggleState(slot);
+        }
+        GetAllWeigth();
+        GetAllValue();
     }
 
     public void UndoButton()

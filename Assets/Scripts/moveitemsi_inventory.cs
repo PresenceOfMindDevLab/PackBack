@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class moveitemsi_inventory : MonoBehaviour
+public class moveitemsi_inventory : MonoBehaviour, ISelectHandler
 {
     // Transforms to act as start and end markers for the journey.
     public ItemSlot startMarker;
@@ -50,5 +51,12 @@ public class moveitemsi_inventory : MonoBehaviour
     public void ReturnToStart()
     {
         ToggleState(startMarker);
+    }
+
+    public void OnSelect(BaseEventData eventData)
+    {
+        TakeAllItems takeAllItems = GameObject.FindObjectOfType<TakeAllItems>();
+
+        takeAllItems.TakeItem(this);
     }
 }

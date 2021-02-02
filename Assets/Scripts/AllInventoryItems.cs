@@ -11,6 +11,19 @@ public class AllInventoryItems : MonoBehaviour
         return allInventorySlots[id];
     }
 
+    public ItemSlot GetNextOpenInventorySlot()
+    {
+        foreach (var slot in allInventorySlots)
+        {
+            if (slot.currentItem == null)
+            {
+                return slot;
+            }
+        }
+
+        return null;
+    }
+
     public void SetAllRed()
     {
         foreach (var item in allInventorySlots)
