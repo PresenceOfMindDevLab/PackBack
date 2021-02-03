@@ -17,6 +17,7 @@ public class TakeAllItems : MonoBehaviour
     public GameObject randomizeText;
     [HideInInspector] public float maximumWeight = 300;
     public GameObject invalidWeightScreen;
+    public Utils Utils;
 
     //public TextMeshProUGUI weightInput;
 
@@ -228,6 +229,7 @@ public class TakeAllItems : MonoBehaviour
 
         allChestItemsLocations.SetAllRed();
 
+        //Utils.setTextNull();
         float maxWeigth = maximumWeight;
         int invSlot = 0;
         int itemInInv = 0;
@@ -235,7 +237,7 @@ public class TakeAllItems : MonoBehaviour
         for (int counter = 0; counter < itemslist.Count; counter++)
         {
             float itemWeight = itemslist[counter].gameObject.GetComponent<ItemValues>().weight;
-
+            string itemName = itemslist[counter].gameObject.GetComponent<ItemValues>().itemName;
             if (itemInInv < 21) 
             {
                 if (maxWeigth >= itemWeight)
@@ -247,6 +249,8 @@ public class TakeAllItems : MonoBehaviour
                         //startButton.SetActive(true);
                     }
                     allChestItemsLocations.GetInventorySlot(counter).DisplayGreen();
+                    string text = "Item ({0}) fits in the inventory";
+                    Utils.weightSortText(text, itemName);
                     invSlot++;
                     itemInInv++;
                     maxWeigth -= itemWeight;
@@ -262,6 +266,8 @@ public class TakeAllItems : MonoBehaviour
                     //startButton.SetActive(true);
                 }
                 allChestItemsLocations.GetInventorySlot(counter).DisplayRed();
+                string text = "Item ({0}) does not fit in the inventory";
+                Utils.weightSortText(text, itemName);
                 yield return new WaitForSeconds(1);
             }
         }
@@ -273,6 +279,11 @@ public class TakeAllItems : MonoBehaviour
         startButton.SetActive(true);
         randomizeButton.SetActive(true);
         randomizeText.SetActive(false);
+    }
+
+    void Start() {
+
+        Utils = GetComponent<Utils>();
     }
 
     private void Update()
