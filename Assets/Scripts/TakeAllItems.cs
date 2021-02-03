@@ -19,9 +19,9 @@ public class TakeAllItems : MonoBehaviour
     public GameObject invalidWeightScreen;
     public Utils Utils;
 
-    //public TextMeshProUGUI weightInput;
-
     private Coroutine sortCorutine;
+    private bool pauseSort = false;
+    private bool startSort = false;
 
     public void SetWeight(string weight)
     {
@@ -106,7 +106,6 @@ public class TakeAllItems : MonoBehaviour
                     maxWeight -= itemWeight;
                     invSlot++;
                 }
-
             }
             else
             {
@@ -129,7 +128,6 @@ public class TakeAllItems : MonoBehaviour
 
     public void UndoButton()
     {
-
         if (sortCorutine != null)
         {
             return;
@@ -141,8 +139,6 @@ public class TakeAllItems : MonoBehaviour
             Items[counter].inInventory = false;
             allChestItemsLocations.SetAllBlack();
         }
-
-        
     }
 
     public void GetAllValue()
@@ -156,7 +152,6 @@ public class TakeAllItems : MonoBehaviour
                 total += item.value;
             }
         }
-
         valueText.text = total.ToString();
     }
 
@@ -171,7 +166,6 @@ public class TakeAllItems : MonoBehaviour
                 total += item.weight;
             }
         }
-
         weightText.text = total.ToString();
     }
 
@@ -187,8 +181,6 @@ public class TakeAllItems : MonoBehaviour
         
     }
 
-    private bool pauseSort = false;
-    private bool startSort = false;
     public void PauseCoroutine()
     {
         pauseSort = !pauseSort;
@@ -237,7 +229,8 @@ public class TakeAllItems : MonoBehaviour
         for (int counter = 0; counter < itemslist.Count; counter++)
         {
             float itemWeight = itemslist[counter].gameObject.GetComponent<ItemValues>().weight;
-            string itemName = itemslist[counter].gameObject.GetComponent<ItemValues>().itemName;
+            //string itemName = itemslist[counter].gameObject.GetComponent<ItemValues>().itemName;
+            string itemName = itemslist[counter].itemName;
             if (itemInInv < 21) 
             {
                 if (maxWeigth >= itemWeight)
@@ -250,7 +243,8 @@ public class TakeAllItems : MonoBehaviour
                     }
                     allChestItemsLocations.GetInventorySlot(counter).DisplayGreen();
                     string text = "Item ({0}) fits in the inventory";
-                    Utils.weightSortText(text, itemName);
+                    //Utils.weightSortText(text, itemName);
+                    weightSortText(text, itemName);
                     invSlot++;
                     itemInInv++;
                     maxWeigth -= itemWeight;
@@ -267,7 +261,8 @@ public class TakeAllItems : MonoBehaviour
                 }
                 allChestItemsLocations.GetInventorySlot(counter).DisplayRed();
                 string text = "Item ({0}) does not fit in the inventory";
-                Utils.weightSortText(text, itemName);
+                //Utils.weightSortText(text, itemName);
+                weightSortText(text, itemName);
                 yield return new WaitForSeconds(1);
             }
         }
@@ -281,6 +276,7 @@ public class TakeAllItems : MonoBehaviour
         randomizeText.SetActive(false);
     }
 
+
     void Start() {
 
         Utils = GetComponent<Utils>();
@@ -291,4 +287,26 @@ public class TakeAllItems : MonoBehaviour
         GetAllWeigth();
         GetAllValue();
     }
+
+    public void exchangeItemText(string firstItemName, string secondItemName)
+    {
+        string template = "exchanged item {0} with item {1}";
+        string output = string.Format(template, firstItemName, secondItemName);
+        outputText.text = output.ToString();
+    }
+
+    public void weightSortText(string text, string itemName)
+    {
+        string output = string.Format(text, itemName);
+        outputText.text = output.ToString();
+
+    }
+
+    public void setTextNull()
+    {
+        string output = " ";
+        outputText.text = output.ToString();
+
+    }
+
 }

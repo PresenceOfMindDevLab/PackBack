@@ -594,7 +594,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 201, y: 71.99997}
+  m_AnchoredPosition: {x: 201, y: 82}
   m_SizeDelta: {x: 135.043, y: 72.965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &120896120
@@ -4295,7 +4295,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Nach dem Start des Spiels, befindet man sich als der Magier \"Magnus\"
     in einem Dungeon. \n\nW, A, S, D\t\t\t- Bewegen\nLinke Maustaste\t- Feuerball
-    schie\xDFen\nEsc\t\t\t\t- Zur\xFCck zum Hauptmen\xFC\n\nFolge  dem   roten  Pfeil!"
+    schie\xDFen\nEsc\t\t\t\t- Zur\xFCck zum Hauptmen\xFC\nItems k\xF6nnen per Mausklick
+    einzeln sortiert werden\nFolge  dem   roten  Pfeil!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a31fced3f4885b143bc965d4844a0192, type: 2}
   m_sharedMaterial: {fileID: 29742093886790339, guid: a31fced3f4885b143bc965d4844a0192, type: 2}

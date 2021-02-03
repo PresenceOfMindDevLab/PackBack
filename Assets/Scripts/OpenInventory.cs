@@ -18,7 +18,8 @@ public class OpenInventory : MonoBehaviour
         //go back to main menu
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene("Menu");
         }
     }
 }
