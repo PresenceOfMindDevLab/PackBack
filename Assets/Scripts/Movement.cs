@@ -50,9 +50,6 @@ public class Movement : MonoBehaviour
 
         if(movement != Vector2.zero)
         {
-            
-            //FindObjectOfType<AudioManager>().Play("MageSteps");
-
             Move();
             animator.SetFloat("moveX", movement.x);
             animator.SetFloat("moveY", movement.y);
@@ -90,5 +87,13 @@ public class Movement : MonoBehaviour
         GameObject projectile = Instantiate(projectilePrefab, shootingPoint.position, shootingPoint.rotation);
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
         rb.AddForce(shootingPoint.up * projectileForce, ForceMode2D.Impulse);
+    }
+
+    private void PlayMoveSound()
+    {
+        while (isMoving)
+        {
+            FindObjectOfType<AudioManager>().Play("MageSteps");
+        }
     }
 }

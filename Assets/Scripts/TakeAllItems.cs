@@ -279,7 +279,7 @@ public class TakeAllItems : MonoBehaviour
 
     void Start() {
 
-        Utils = GetComponent<Utils>();
+        //Utils = GetComponent<Utils>();
     }
 
     private void Update()
