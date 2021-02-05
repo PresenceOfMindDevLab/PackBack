@@ -17,15 +17,14 @@ public class TakeAllItems : MonoBehaviour
     public GameObject randomizeText;
     [HideInInspector] public float maximumWeight = 300;
     public GameObject invalidWeightScreen;
-    public Utils Utils;
-
     private Coroutine sortCorutine;
+    
     private bool pauseSort = false;
     private bool startSort = false;
 
-    public void SetWeight(string weight)    {
+    public void SetWeight(string weight) {
 
-        try{
+        try {
             maximumWeight = float.Parse(weight);
             invalidWeightScreen.SetActive(false);
             return;
@@ -121,6 +120,7 @@ public class TakeAllItems : MonoBehaviour
         }
         GetAllWeigth();
         GetAllValue();
+        
     }
 
     public void UndoButton() {
@@ -131,7 +131,6 @@ public class TakeAllItems : MonoBehaviour
         }
 
         for (int counter = 0; counter < Items.Length; counter++) {
-
             Items[counter].gameObject.GetComponent<moveitemsi_inventory>().ReturnToStart();
             Items[counter].inInventory = false;
             allChestItemsLocations.SetAllBlack();
