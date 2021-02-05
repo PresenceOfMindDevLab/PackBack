@@ -188,6 +188,7 @@ public class TakeAllItems : MonoBehaviour
         startButton.SetActive(false);
         randomizeButton.SetActive(false);
         randomizeText.SetActive(true);
+
         List<ItemValues> itemslist = new List<ItemValues>(Items);
         List<ItemValues> itemListUnsorted = new List<ItemValues>(Items);
 
@@ -210,9 +211,11 @@ public class TakeAllItems : MonoBehaviour
 
             itemslist[i].GetComponent<moveitemsi_inventory>().ToggleState(allChestItemsLocations.GetInventorySlot(i));
             itemslist[i].inInventory = false;
+
             string itemName = itemslist[i].itemName;
             exchangeItemText(itemName, i.ToString());
             allChestItemsLocations.GetInventorySlot(i).DisplayGreen();
+
             yield return new WaitForSeconds(1);
         }
 
@@ -260,7 +263,9 @@ public class TakeAllItems : MonoBehaviour
         }
         sortCorutine = null;
         Greedy();
+
         yield return new WaitForSeconds(1);
+
         allChestItemsLocations.SetAllBlack();
         startButton.SetActive(true);
         randomizeButton.SetActive(true);
