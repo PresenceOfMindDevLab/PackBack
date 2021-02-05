@@ -26,7 +26,6 @@ public class TakeAllItems : MonoBehaviour
     public void SetWeight(string weight)    {
 
         try{
-
             maximumWeight = float.Parse(weight);
             invalidWeightScreen.SetActive(false);
             return;
