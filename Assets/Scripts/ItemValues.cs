@@ -19,8 +19,11 @@ public class ItemValues : MonoBehaviour
     public TextMeshProUGUI weightText;
     public TextMeshProUGUI costText;
 
+    private DisableRandomize disableRandomize;
+
     private void Awake()
     {
+        disableRandomize = GetComponent<DisableRandomize>();
         Randomize();
         GetValue();
         GetWeight();
@@ -53,7 +56,8 @@ public class ItemValues : MonoBehaviour
     {
         if(inInventory)
         {
-            return;
+            //return;
+            disableRandomize.NoRandomize();
         } 
         else
         {
@@ -63,6 +67,6 @@ public class ItemValues : MonoBehaviour
             GetWeight();
             GetCost();
         }
-        
     }
+
 }
